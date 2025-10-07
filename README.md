@@ -3,7 +3,7 @@
 Welcome to the project repository for Team 4- the Big Bang Brokers. We are creating an intergalactic marketplace. 
 This is an e-commerce experience designed for users to browse and buy planets from across the universe. 
 We will be using Python, Flask, and SQLite as the foundation for our website. 
-Here we will be documenting our presentations, documentation, artifacts, and source code for our project. 
+Here, we will document our presentations, artifacts, and source code for our project. 
  
 
 
@@ -36,6 +36,6 @@ The main project plan is documented [here](./project-plan/README.md)
 
 That page includes: 
 - A link to our Gantt Project file: [Gantt Project File](./project-plan/gantt-chart/SWE3314-Team-04-GanttPlan.gan)
-- An embedded image export of our Gantt chart: [Gantt Chart Image](./project-plan/gantt-chart/ganttproject.png)
+- An embedded image export of our Gantt chart: [Gantt Chart Image](./project-plan/gantt-chart/SWE3314-Team-04-GanttPlan.png)
 
 - Our Loom video presentation discussing the project plan [here](https://www.loom.com)
