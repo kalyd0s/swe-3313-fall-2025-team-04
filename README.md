@@ -14,7 +14,7 @@ All resumes are located [here](./project-plan/resumes/) and are formatted in Mar
 - [Nish Patel](./project-plan/resumes/Resume-NishPatel.md)
 - [Dhir Patel](./project-plan/resumes/Resume-DhirPatel.md)
 - [Christine Gyimah](./project-plan/resumes/Resume-ChristineGyimah.md) -
-- [Rachel Agbenu](./project-plan/resumes/Resume-RachelAgbbenu.md)
+- [Rachel Agbenu](./project-plan/resumes/Resume-RachelAgbenu.md)
 - [Isabella White](./project-plan/resumes/Resume-IsabellaWhite.md)
   
 --- 
