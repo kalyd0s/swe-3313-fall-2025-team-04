@@ -37,5 +37,6 @@ The main project plan is documented [here](./project-plan/README.md)
 That page includes: 
 - A link to our Gantt Project file: [Gantt Project File](./project-plan/gantt-chart/SWE3314-Team-04-GanttPlan.gan)
 - An embedded image export of our Gantt chart: [Gantt Chart Image](./project-plan/gantt-chart/SWE3314-Team-04-GanttChart.png)
+![Gantt Chart Image](./project-plan/SWE3314-Team-04-GanttChart.png)
 
 - Our Loom video presentation discussing the project plan [here](https://www.loom.com)
