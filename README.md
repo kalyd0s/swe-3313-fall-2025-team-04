@@ -10,7 +10,7 @@ All resumes are located [here](./project-plan/resumes/) and are formatted in Mar
 - [Isabella White](./project-plan/resumes/Resume-IsabellaWhite.md)
   
 --- 
-## Team Assignments Our team assignments can be found in the following directory: [`project-plan/team-assignments/README.md`](./project-plan/team-assignments/README.md). 
+## Team Assignments Our team assignments can be found in the following directory [here](./project-plan/team-assignments/README.md). 
 
 This document outlines the roles and contributions of each member, including responsibilities for development, design, testing, and project management. 
 --- 
@@ -25,6 +25,6 @@ The main project plan is documented [here](./project-plan/README.md)
 
 That page includes: 
 - A link to our Gantt Project file: [Gantt Project File](./project-plan/gantt-chart/ganttproject.gan)
-- An embedded image export of our Gantt chart:![Gantt Chart Image](./project-plan/gantt-chart/ganttproject.png)
+- An embedded image export of our Gantt chart: [Gantt Chart Image](./project-plan/gantt-chart/ganttproject.png)
 
-- Our Loom video presentation discussing the project plan [here)](https://www.loom.com)
+- Our Loom video presentation discussing the project plan [here](https://www.loom.com)
