@@ -9,16 +9,15 @@ All resumes are located in the [`project-plan/resumes`](./project-plan/resumes/)
 - [Rachel Agbenu](./project-plan/resumes/Resume-RachelAgbbenu.md)
 - [Isabella White](./project-plan/resumes/Resume-IsabellaWhite.md)
   
-> Each resume follows a consistent Markdown format for readability and version control compatibility.
 --- 
 ## Team Assignments Our team assignments can be found in the following directory: [`project-plan/team-assignments/README.md`](./project-plan/team-assignments/README.md). 
 
-This document outlines each member’s role and contributions, including responsibilities for development, design, testing, and project management. 
+This document outlines the roles and contributions of each member, including responsibilities for development, design, testing, and project management. 
 --- 
 ## Technology Selection 
 Details about our technology stack, frameworks, libraries, and tools are included in: [`project-plan/technology-selection/README.md`](./project-plan/technology-selection/README.md). 
 
-This section explains the technologies and tools chosen for the project and how they will be used throughout development. 
+This section explains the technologies and tools selected for the project and how they will be utilized throughout the development process. 
 --- 
 ## Project Plan 
 Our project planning documents are available in the [`project-plan`](./project-plan/) directory. 
