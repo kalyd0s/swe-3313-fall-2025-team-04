@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="SWE 3313 Team 04 Gantt" company="" webLink="http://" view-date="2025-08-19" view-index="0" gantt-divider-location="784" resource-divider-location="322" version="3.3.3316" locale="en_US">
+    <description/>
+    <view zooming-state="default:0" id="gantt-chart">
+        <field id="tpd12" name="Cost" width="35" order="0"/>
+        <field id="tpd3" name="Name" width="344" order="1"/>
+        <field id="tpd4" name="Begin date" width="129" order="2"/>
+        <field id="tpd5" name="End date" width="129" order="3"/>
+        <field id="tpd7" name="Completion" width="83" order="4"/>
+        <field id="tpd6" name="Duration" width="63" order="5"/>
+        <option id="taskLabelRight" value=""/>
+        <option id="filter.completedTasks" value="false"/>
+        <option id="filter.dueTodayTasks" value="false"/>
+        <option id="filter.overdueTasks" value="false"/>
+        <option id="filter.inProgressTodayTasks" value="false"/>
+        <timeline><![CDATA[21,25,28,26,20,5,33,11,18,30,29,16,1,24,27,22,19,4,6,17,23,32,31,34,3]]></timeline>
+        <option id="color.recent"><![CDATA[#ff0066]]></option>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Name" width="221" order="0"/>
+        <field id="1" name="Default role" width="97" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="1" uid="5ba9cd205528478b8df372b59cd94d21" name="Project Plan" meeting="true" start="2025-09-25" duration="0" complete="0" thirdDate="2025-09-15" thirdDate-constraint="1" priority="4" expand="false">
+            <task id="2" uid="c8a97d58560f4e0394a74193a8bb6fac" name="Create Gantt Chart" meeting="false" start="2025-10-02" duration="3" complete="0" expand="true"/>
+            <task id="3" uid="1e992051596140a385c1de8d1abaf02a" name="Video Presentation" meeting="false" start="2025-10-06" duration="2" complete="0" expand="false">
+                <task id="4" uid="0a6df4ab36bf409aabe2dc191eec5801" name="Record on Loom" meeting="false" start="2025-10-06" duration="2" complete="0" expand="true"/>
+                <task id="5" uid="08e2917267f44f3786264565f9b9416f" name="Add to GitHub Repository" meeting="false" start="2025-10-07" duration="1" complete="0" expand="true"/>
+            </task>
+            <task id="12" uid="9813e8c6261d4f8c968b8c1838088f78" name="Create Written Introduction" meeting="false" start="2025-10-02" duration="4" complete="0" expand="true"/>
+            <task id="6" uid="aaec95550a234c7285b5d7f6e1094984" name="Team Resumes" meeting="false" start="2025-09-25" duration="8" complete="0" thirdDate="2025-09-25" thirdDate-constraint="1" expand="false">
+                <task id="15" uid="c3c8e3563cbd42eaa0b75a9fe5bece27" name="Create Resumes in Markdown" meeting="false" start="2025-09-29" duration="6" complete="0" expand="true"/>
+                <task id="13" uid="53168b130a0c4d85990eb429cf2f47db" name="Compile to README.md" meeting="false" start="2020-10-05" duration="2" complete="0" expand="true"/>
+            </task>
+        </task>
+        <task id="7" uid="e37009952e0f4bcfb382a5ddf99a2164" name="Requirements" meeting="false" start="2025-08-20" duration="45" complete="0" expand="false">
+            <task id="19" uid="88b1c14042634fe0995f82fd9424d00c" name="Record Presentation" meeting="false" start="2025-08-20" duration="1" complete="0" expand="true"/>
+            <task id="18" uid="a9418de369bc4b11b06396053634c27b" name="Create Decision Table" meeting="false" start="2025-08-20" duration="1" complete="0" expand="true"/>
+            <task id="17" uid="233aea558f4a421ea7775debe8c8dd84" name="Make Use Case Diagram" meeting="false" start="2025-08-20" duration="1" complete="0" expand="true"/>
+            <task id="16" uid="d17c4f4380774867a1dcf17c8d8b45de" name="Create Introduction" meeting="false" start="2025-10-10" duration="8" complete="0" expand="true"/>
+        </task>
+        <task id="8" uid="5b7deb006c4547e5b8dee2ff1d70298e" name="UI Design" meeting="false" start="2025-08-20" duration="1" complete="0" expand="false">
+            <task id="21" uid="03a65e10585248a7bcb10dcab95cdb9a" name="Review Usability" meeting="false" start="2025-08-20" duration="1" complete="0" expand="true"/>
+            <task id="20" uid="bd406db8ffec4b789a1137902dde8b56" name="Create Screens in Marvel" meeting="false" start="2025-08-20" duration="1" complete="0" expand="true"/>
+        </task>
+        <task id="9" uid="512b66defbb149e78bf9ff76c7b6745a" name="Technical Design" meeting="false" start="2025-08-20" duration="6" complete="0" expand="false">
+            <task id="27" uid="c7ef9ea836d74af7ba11ca9f91b910b4" name="Add Coding Style Guide" meeting="false" start="2025-08-20" duration="4" complete="0" expand="true"/>
+            <task id="26" uid="937c6e59eacb45ca8f113a520efd172a" name="Explain Data Storage Plan" meeting="false" start="2025-08-20" duration="2" complete="0" expand="true"/>
+            <task id="25" uid="4e7c3a656e5d4d75b17f39be90a98a75" name="Explain Implementation Details" meeting="false" start="2025-08-20" duration="4" complete="0" expand="true"/>
+            <task id="23" uid="cb72b45ad4ca43da956dca19800d0a1d" name="Make example Data" meeting="false" start="2025-08-20" duration="3" complete="0" expand="true"/>
+            <task id="22" uid="20649a1c47684e659ec4b008b71b7769" name="Create Field Description Table" meeting="false" start="2025-08-20" duration="3" complete="0" expand="true"/>
+            <task id="24" uid="415cf0c19446459a9e6ec2d336b34142" name="Create ER Diagram" meeting="false" start="2025-08-20" duration="6" complete="0" expand="true"/>
+        </task>
+        <task id="10" uid="1cfdb2d0a57b4c678c57fab7becba84b" name="Implementation" meeting="false" start="2025-08-20" duration="9" complete="0" expand="false">
+            <task id="31" uid="e1d896aa49d44952a9f0e02c974f34ed" name="Add Troubleshoot Documentation" meeting="false" start="2025-08-20" duration="7" complete="0" expand="true"/>
+            <task id="30" uid="d05b007af6a54661b62f6e4a9da8263a" name="Submit Code" meeting="false" start="2025-08-20" duration="9" complete="0" expand="true"/>
+            <task id="28" uid="ca0a614572dd41629c1544bcf74ba486" name="Create README.md" meeting="false" start="2025-08-20" duration="3" complete="0" expand="true"/>
+            <task id="29" uid="bb786deb568845d2a5524a0e1e64ff5c" name="Record Video Setup Presentation" meeting="false" start="2025-08-20" duration="2" complete="0" expand="true"/>
+        </task>
+        <task id="11" uid="a6e6a2033dc34a7fa4200829e60c2c86" name="Final Presentation" meeting="false" start="2025-08-20" duration="3" complete="0" expand="false">
+            <task id="34" uid="e26ca54116704d88a95bfd15239fdb2e" name="Add video link to repo documentation" meeting="false" start="2025-08-20" duration="1" complete="0" expand="true"/>
+            <task id="33" uid="fd1f0b2edd794aa5a7e4cd05436d3be5" name="Record run through of application" meeting="false" start="2025-08-20" duration="3" complete="0" expand="true"/>
+            <task id="32" uid="4b7975ddc5804ddfb185b1efc35a972d" name="Record Comparison of Final Version" meeting="false" start="2025-08-20" duration="2" complete="0" expand="true"/>
+        </task>
+    </tasks>
+    <resources>
+        <resource id="7" name="Rachel Agbenu" function="Default:0" contacts="Ragbenu@students.kennesaw.edu" phone=""/>
+        <resource id="8" name="Christine Gyimah" function="Default:0" contacts="cgyimah@students.kennesaw.edu" phone=""/>
+        <resource id="9" name="Nish Patel" function="Default:0" contacts="npate222@students.kennesaw.edu" phone=""/>
+        <resource id="10" name="Dhir Patel" function="Default:0" contacts="dpate253@students.kennesaw.edu" phone=""/>
+        <resource id="11" name="Isabella White" function="Default:0" contacts="iwhite36@students.kennesaw.edu" phone=""/>
+    </resources>
+    <allocations/>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+</project>
