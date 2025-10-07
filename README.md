@@ -1,4 +1,4 @@
-# Project Repository 
+# Big Bang Brokers
  
 Welcome to the project repository for Team 4- the Big Bang Brokers. We are creating an intergalactic marketplace. 
 This is an e-commerce experience designed for users to browse and buy planets from across the universe. 
