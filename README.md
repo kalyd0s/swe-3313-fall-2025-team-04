@@ -13,7 +13,7 @@ Here, we will document our presentations, artifacts, and source code for our pro
 All resumes are located [here](./project-plan/resumes/) and are formatted in Markdown. 
 - [Nish Patel](./project-plan/resumes/Resume-NishPatel.md)
 - [Dhir Patel](./project-plan/resumes/Resume-DhirPatel.md)
-- [Christine Gyimah](./project-plan/resumes/Resume-ChristineGyimah.md) -
+- [Christine Gyimah](./project-plan/resumes/Resume-ChristineGyimah.md)
 - [Rachel Agbenu](./project-plan/resumes/Resume-RachelAgbenu.md)
 - [Isabella White](./project-plan/resumes/Resume-IsabellaWhite.md)
   
