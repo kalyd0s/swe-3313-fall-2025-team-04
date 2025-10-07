@@ -2,13 +2,12 @@
 
  
 
-
 We chose **Python** as our primary programming language because our team has prior experience using it. Python’s simplicity, readability, and extensive library support make it ideal for efficient problem-solving that helps rapid development.
 
 ## ⚙️Framework
 
 
-We chose to use Flask as our web application framework because Python uses it to build web apps and APIs quickly
+We chose to use **Flask** as our web application framework because Python uses it to build APIs quickly and is beginner-friendly.
  
 
 ## 📦Storage 
