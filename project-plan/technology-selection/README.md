@@ -1,14 +1,17 @@
-## Language 
+## 💻Language 
 
  
 
-------
 
 We chose **Python** as our primary programming language because our team has prior experience using it. Python’s simplicity, readability, and extensive library support make it ideal for efficient problem-solving that helps rapid development.
 
+## ⚙️Framework
+
+
+We chose to use Flask as our web application framework because Python uses it to build web apps and APIs quickly
  
 
-## Storage 
+## 📦Storage 
 
  
 
@@ -16,8 +19,8 @@ We selected **SQLite** as our database for its lightweight design and seamless i
 
  
 
-## Environment 
+## 🖥️Environment 
 
  
 
-Our development environment includes **macOS** and **Windows** operating systems. This setup provides flexibility for team collaboration and allows for compatibility across different platforms.
+Our development environment includes **macOS** and **Windows** operating systems. This setup provides flexibility for team collaboration and allows for compatibility across different platforms. 
