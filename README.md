@@ -1,4 +1,4 @@
-# Big Bang Brokers
+# 🪐Big Bang Brokers
  
 Welcome to the project repository for Team 4, the Big Bang Brokers. We are creating an intergalactic marketplace. 
 This is an e-commerce experience designed for users to browse and buy planets from across the universe. 
@@ -9,7 +9,7 @@ Here, we will document our presentations, artifacts, and source code for our pro
 
 --- 
 
-## Meet Our Team 
+## 👩‍💻Meet Our Team 
 All resumes are located [here](./project-plan/resumes/) and are formatted in Markdown. 
 - [Nish Patel](./project-plan/resumes/Resume-NishPatel.md)
 - [Dhir Patel](./project-plan/resumes/Resume-DhirPatel.md)
@@ -18,19 +18,19 @@ All resumes are located [here](./project-plan/resumes/) and are formatted in Mar
 - [Isabella White](./project-plan/resumes/Resume-IsabellaWhite.md)
   
 --- 
-## Team Assignments
+## 📋Team Assignments
 Our team assignments can be found in the following directory [here](./project-plan/team-assignments/README.md). 
 
 This document outlines the roles and responsibilities of each member, including their contributions to development, design, testing, and project management. 
 
 --- 
-## Technology Selection 
+## 🔩Technology Selection 
 Details about our technology stack, frameworks, libraries, and tools are detailed [here](./project-plan/technology-selection/README.md). 
 
 This section explains the technologies and tools selected for the project and how they will be utilized throughout the development process
 
 --- 
-## Project Plan 
+## 📈Project Plan 
 Our project planning documents are available [here](./project-plan/) in our project plan directory. 
 The main project plan is documented [here](./project-plan/README.md)
 
