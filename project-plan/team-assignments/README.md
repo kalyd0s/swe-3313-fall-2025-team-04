@@ -15,7 +15,7 @@
 -Contributes to backend testing and debugging, helping ensure Flask routes and database interactions work smoothly. 
 
 ### **Rachel Agbenu** - [Resume](https://github.com/kalyd0s/swe-3313-fall-2025-team-04/blob/main/project-plan/resumes/Resume-RachelAgbenu.md)
-*Quality & Documentation Lead* 
+*Quality & Documentation Lead*    
 -Tests major features, compiles requirements, and maintains the README and project notes.  
 
 
