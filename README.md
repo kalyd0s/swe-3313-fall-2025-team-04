@@ -1,6 +1,14 @@
 # Project Repository 
-ADD THE INTRO 
+ 
+Welcome to the project repository for Team 4- the Big Bang Brokers. We are creating an intergalactic marketplace. 
+This is an e-commerce experience designed for users to browse and buy planets from across the universe. 
+We will be using Python, Flask, and SQLite as the foundation for our website. 
+Here we will be documenting our presentations, documentation, artifacts, and source code for our project. 
+ 
+
+
 --- 
+
 ## Meet Our Team 
 All resumes are located [here](./project-plan/resumes/) and are formatted in Markdown. 
 - [Nish Patel](./project-plan/resumes/Resume-NishPatel.md)
