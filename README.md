@@ -18,7 +18,8 @@ This document outlines the roles and contributions of each member, including res
 ## Technology Selection 
 Details about our technology stack, frameworks, libraries, and tools are detailed [here](./project-plan/technology-selection/README.md). 
 
-This section explains the technologies and tools selected for the project and how they will be utilized throughout the development process. 
+This section explains the technologies and tools selected for the project and how they will be utilized throughout the development process
+
 --- 
 ## Project Plan 
 Our project planning documents are available [here](./project-plan/) in our project plan directory. 
