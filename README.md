@@ -22,6 +22,7 @@ All resumes are located [here](./project-plan/resumes/) and are formatted in Mar
 Our team assignments can be found in the following directory [here](./project-plan/team-assignments/README.md). 
 
 This document outlines the roles and contributions of each member, including responsibilities for development, design, testing, and project management. 
+
 --- 
 ## Technology Selection 
 Details about our technology stack, frameworks, libraries, and tools are detailed [here](./project-plan/technology-selection/README.md). 
