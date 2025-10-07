@@ -20,7 +20,7 @@ Each member shares equal responsibility for communication, development, and dead
 
 ### **Rachel Agbenu** - [Resume](https://github.com/kalyd0s/swe-3313-fall-2025-team-04/blob/main/project-plan/resumes/Resume-RachelAgbenu.md)
 *Quality & Documentation Lead*  
--Tests major features, compiles requirements, and maintains the README and project notes.
+-Tests major features, assist with debugging, and maintains the README and project notes.
  
 
 
