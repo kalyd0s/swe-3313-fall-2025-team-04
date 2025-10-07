@@ -20,4 +20,4 @@ We selected **SQLite** as our database for its lightweight design and seamless i
 
  
 
-Our development environment includes **Linux** and **Windows** operating systems. This setup provides flexibility for team collaboration and allows for compatibility across different platforms.
+Our development environment includes **macOS** and **Windows** operating systems. This setup provides flexibility for team collaboration and allows for compatibility across different platforms.
