@@ -1,3 +1,7 @@
+**Our team has chosen a collaborative structure with no single project manager.**  
+Each member shares equal responsibility for communication, development, and deadlines while focusing on their areas of strength.
+
+
 ### **Christine Gyimah**  - [Resume](https://github.com/kalyd0s/swe-3313-fall-2025-team-04/blob/main/project-plan/resumes/Resume-ChristineGyimah.md)
 *Front-End Designer*  
 -Creates the website’s layout, styles the user interface, and ensures the platform is responsive and user-friendly.
