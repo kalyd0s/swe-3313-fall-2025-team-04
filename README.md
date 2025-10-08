@@ -35,6 +35,6 @@ Our project planning documents are available in our project plan directory.
 The main project plan is documented [here](./project-plan/README.md)
 
 That page includes: 
-- Our Gantt Project file: [Gantt Project File](./project-plan/gantt-chart/SWE3314-Team-04-Gnatt-final.png)
+- Our Gantt Project file: [Gantt Project File](./project-plan/gantt-chart/Gantt-final.gnt)
 
 - Our Loom video presentation discussing the project plan [here](https://www.loom.com)
