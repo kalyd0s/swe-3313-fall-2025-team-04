@@ -32,7 +32,7 @@ This section explains the technologies and tools selected for the project and ho
 --- 
 ## Project Plan 
 Our project planning documents are available in our project plan directory. 
-The main project plan is documented [here](./project-plan/README.md)
+The main project plan is documented [here](./project-plan/)
 
 That page includes: 
 - Our Gantt Project file: [Gantt Project File](./project-plan/gantt-chart/Gantt-final.gan)
