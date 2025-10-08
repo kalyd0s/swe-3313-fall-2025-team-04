@@ -1,6 +1,6 @@
 # Christine Gyimah
 
-**Kennesaw State University **— **Computer Science**
+**Kennesaw State University** — **Computer Science**
 cgyimah@students.kennesaw.edu
 
 
@@ -47,4 +47,5 @@ cgyimah@students.kennesaw.edu
 **Related Links** 
 
 - [GitHub](https://github.com/ladyvchristy)
+
 
