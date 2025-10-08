@@ -31,11 +31,10 @@ This section explains the technologies and tools selected for the project and ho
 
 --- 
 ## 📈Project Plan 
-Our project planning documents are available [here](./project-plan/) in our project plan directory. 
+Our project planning documents are available in our project plan directory. 
 The main project plan is documented [here](./project-plan/README.md)
 
 That page includes: 
-- A link to our Gantt Project file: [Gantt Project File](./project-plan/gantt-chart/SWE3314-Team-04-Gnatt-final.png)
-- An embedded image export of our Gantt chart:![Gantt Chart Image](./project-plan/gantt-chart/SWE3314-Team-04-GanttChart.png)
+- ur Gantt Project file: [Gantt Project File](./project-plan/gantt-chart/SWE3314-Team-04-Gnatt-final.png)
 
 - Our Loom video presentation discussing the project plan [here](https://www.loom.com)
