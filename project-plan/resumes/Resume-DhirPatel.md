@@ -1,6 +1,6 @@
 ## Dhir Patel
 
-**Kennesaw State University **— **Computer Science **
+**Kennesaw State University** — **Computer Science **
 
 Dpate@students.kennesaw.edu
 
