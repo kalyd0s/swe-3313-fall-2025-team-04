@@ -36,5 +36,5 @@ The main project plan is documented [here](./project-plan/README.md)
 
 That page includes: 
 - Our Gantt Project file: [Gantt Project File](./project-plan/gantt-chart/Gantt-final.gan)
-Gantt Chart: ![Gantt Export](./project-plan/gantt-chart/Gantt-final.png).
+- Gantt Chart:![Gantt Export](./project-plan/gantt-chart/Gantt-final.png).
 - Our Loom video presentation discussing the project plan [here](https://www.loom.com)
