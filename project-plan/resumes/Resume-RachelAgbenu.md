@@ -1,5 +1,5 @@
 # Rachel Agbenu
-**Kennesaw State University **— **Bachelor's in Computer Science**
+**Kennesaw State University** — **Bachelor's in Computer Science**
 
 Ragbenu@students.kennesaw.edu
 
