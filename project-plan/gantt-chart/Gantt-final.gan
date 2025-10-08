@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2025-10-26" view-index="0" gantt-divider-location="533" resource-divider-location="300" version="3.3.3316" locale="en_US">
+    <description/>
+    <view zooming-state="default:4" id="gantt-chart">
+        <field id="tpd3" name="Name" width="258" order="0"/>
+        <field id="tpd4" name="Begin date" width="128" order="1"/>
+        <field id="tpd5" name="End date" width="131" order="2"/>
+        <field id="tpd15" name="Notes" width="20" order="3"/>
+        <option id="filter.completedTasks" value="false"/>
+        <option id="filter.dueTodayTasks" value="false"/>
+        <option id="filter.overdueTasks" value="false"/>
+        <option id="filter.inProgressTodayTasks" value="false"/>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Name" width="209" order="0"/>
+        <field id="1" name="Default role" width="85" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="0" uid="9f86022b73eb446fb637b12285c2a230" name="Project Plan" meeting="false" start="2025-09-25" duration="9" complete="0" expand="true">
+            <depend id="27" type="2" difference="0" hardness="Strong"/>
+            <task id="25" uid="84a14a0ba6d64f5791936b56a2ed7cab" name="Resume" meeting="false" start="2025-09-29" duration="5" complete="0" expand="true">
+                <task id="2" uid="bca343b04dda47b7b1ad4836c756468f" name="Nish Resume" meeting="false" start="2025-09-29" duration="5" complete="0" expand="true"/>
+                <task id="4" uid="583ab5548c1345d09d836f8086ca7ab6" name="Dhir Resume" meeting="false" start="2025-09-29" duration="5" complete="0" expand="true"/>
+                <task id="6" uid="c5a0e7dca6974919b1443a4fe60b1c59" name="Rachel Resume" meeting="false" start="2025-09-29" duration="5" complete="0" expand="true"/>
+                <task id="7" uid="263914c1cbd6492a993568e5b0867d1d" name="Christine Resume" meeting="false" start="2025-09-29" duration="5" complete="0" expand="true"/>
+                <task id="5" uid="7a3151d9396e46c1b3043185e766f0eb" name="Isabella Resume" meeting="false" start="2025-09-29" duration="5" complete="0" expand="true"/>
+            </task>
+            <task id="20" uid="c13d08667f6340f5905442840cff7398" name="Loom Video" meeting="false" start="2025-10-06" duration="2" complete="0" expand="true">
+                <task id="21" uid="e92b8aa05a9e4936a8d7812deeb155e4" name="Create script" meeting="false" start="2025-10-06" duration="2" complete="0" expand="true"/>
+            </task>
+            <task id="23" uid="8bbb3794eb014e3bafb2fd8badc3cbb5" name="Upload to Git" meeting="false" start="2025-10-06" duration="2" complete="0" expand="true"/>
+            <task id="18" uid="02a30f0a8b53404e80d2bb99daf01f0b" name="Team Assigment" meeting="false" start="2025-09-25" duration="3" complete="0" expand="true">
+                <task id="19" uid="32fbcf2a1f344130a20a14906ce5e7de" name="Assign roles to group members" meeting="false" start="2025-09-25" duration="3" complete="0" expand="true"/>
+            </task>
+            <task id="8" uid="52ac44eaecdc4e7094f593d4e13e1386" name="Create Readme" meeting="false" start="2025-09-29" duration="6" complete="0" expand="true">
+                <task id="11" uid="2e7a079e057c4fe2858fe15fa03b142f" name="Add Technology Selection" meeting="false" start="2025-09-29" duration="4" complete="0" expand="true"/>
+                <task id="10" uid="b2860124ea7b499193a180e9e3ff49f0" name="Add Team Assigments" meeting="false" start="2025-09-30" duration="3" complete="0" expand="true"/>
+                <task id="13" uid="5f02c751bc244e3db04344030176d425" name="Add Loom Video" meeting="false" start="2025-10-06" duration="1" complete="0" expand="true"/>
+            </task>
+            <task id="3" uid="09a39469e2154de2a1b8c6e7b5e1ccab" name="Technology Selection" meeting="false" start="2025-09-30" duration="2" complete="0" expand="true"/>
+            <task id="15" uid="c67e435c154f4977aac9c9aee5a2e7c0" name="Create Gantt Chart" meeting="false" start="2025-09-25" duration="8" complete="0" expand="true">
+                <task id="16" uid="4e063f8e041e4dbba1c746107c3f5ab2" name="Add project task" meeting="false" start="2025-09-25" duration="7" complete="0" expand="true"/>
+                <task id="17" uid="b225f0907c4042ea8d6a696f6430bd72" name="Create due dates" meeting="false" start="2025-09-25" duration="8" complete="0" expand="true"/>
+            </task>
+        </task>
+        <task id="27" uid="6a7a07fffb1f472aa4a90b108d19b159" name="Requirements" meeting="false" project="true" start="2025-10-08" duration="5" complete="0" thirdDate="2025-10-08" thirdDate-constraint="1" expand="true">
+            <depend id="55" type="2" difference="0" hardness="Strong"/>
+            <task id="51" uid="852fc0a62a0f4ace888c46ced01b0d51" name="Presentation" meeting="false" start="2025-10-08" duration="2" complete="0" expand="true"/>
+            <task id="46" uid="f67223ac31cf4c7a8dadcb666e2655af" name="Requirements Analysis and Elicitation" meeting="false" start="2025-10-08" duration="2" complete="0" expand="true">
+                <task id="47" uid="d260a20b3f37406b9cb84b80f33f9ecf" name="Read Customer Notes With Team" meeting="false" start="2025-10-08" duration="2" complete="0" expand="true"/>
+            </task>
+            <task id="50" uid="3c9b4804ce49484d9da49365a2f93869" name="Decision Table" meeting="false" start="2025-10-13" duration="2" complete="0" expand="true"/>
+            <task id="49" uid="ffe33c4906094fe486f3739f17335c0c" name="Use Case Diagram" meeting="false" start="2025-10-09" duration="2" complete="0" expand="true"/>
+            <task id="54" uid="43149f2983af413dbc56e88385715862" name="Requirements Writing" meeting="false" start="2025-10-13" duration="2" complete="0" expand="true"/>
+            <task id="28" uid="411174165d524ad891def68e598c944f" name="Intro for Requriments" meeting="false" start="2025-10-10" duration="3" complete="0" expand="true"/>
+        </task>
+        <task id="55" uid="9c4407c01b19460c8c45dea852094684" name="User Interface Design" meeting="false" start="2025-10-17" duration="8" complete="0" expand="true">
+            <depend id="61" type="2" difference="0" hardness="Strong"/>
+            <task id="60" uid="ce22fa4eff414d8592c806cb5a578460" name="Sales Report" meeting="false" start="2025-10-24" duration="3" complete="0" expand="true"/>
+            <task id="58" uid="5065b34e8b5c4662bf815bfdc6958e06" name="Inventory" meeting="false" start="2025-10-21" duration="4" complete="0" expand="true"/>
+            <task id="56" uid="fe7b5946f685475194e67caf2d4b7f49" name="Login" meeting="false" start="2025-10-17" duration="2" complete="0" expand="true"/>
+            <task id="57" uid="d8a479c25d7249599179455e1bde5e41" name="Self Registration" meeting="false" start="2025-10-20" duration="2" complete="0" expand="true"/>
+        </task>
+        <task id="59" uid="82316eb1f2fc414a872a228641a2599d" name="Shopping Cart &amp; Checkout" meeting="false" start="2025-10-24" duration="2" complete="0" expand="true"/>
+        <task id="61" uid="0d069c99c6c9447ab2bddfeac8ca9241" name="Technical Design" meeting="false" start="2025-10-29" duration="13" complete="0" expand="true">
+            <depend id="69" type="2" difference="0" hardness="Strong"/>
+            <task id="65" uid="fa3c43a93ddb4de8aa7dd00bac2b3ac7" name="Data base Data" meeting="false" start="2025-11-07" duration="2" complete="0" expand="true"/>
+            <task id="62" uid="c17387f155324ede81e6b81f9d0b283b" name="Implementation Language- Python" meeting="false" start="2025-10-29" duration="3" complete="0" expand="true"/>
+            <task id="63" uid="4bcd54cf77bc42518767e4000a784012" name="Implementation Frameworks" meeting="false" start="2025-10-31" duration="2" complete="0" expand="true"/>
+            <task id="64" uid="846112f08c8d42ee942ed2050bfa36b0" name="Entity Relationship Diagram" meeting="false" start="2025-11-03" duration="4" complete="0" expand="true"/>
+            <task id="66" uid="aed077a8bc93485a9c701581cb7e9b64" name="Data Storage plan &amp; Loom Video" meeting="false" start="2025-11-10" duration="5" complete="0" expand="true"/>
+        </task>
+        <task id="69" uid="f1a39a5da13b4f088309febd8f5fdfcc" name="Implementation &amp; Final Project Due" meeting="false" start="2025-11-17" duration="16" complete="0" expand="true">
+            <task id="68" uid="ddd31a33352a4257b0422c3516f4ab97" name="deliverable(Working code)" meeting="false" start="2025-11-17" duration="16" complete="0" expand="true"/>
+        </task>
+    </tasks>
+    <resources/>
+    <allocations/>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+</project>
