@@ -42,7 +42,13 @@ That page includes:
 ## Requirements
 After working closely with our client, we identified the key requirements and functionalities neccesary for the success of our system. Our project aims to create an online marketplace where users can discover and purchase unique planets. The platform will allow users to register and log in to their accounts, browse the inventory, and complete a secure checkout process that includes payment and shipping verification. Administrative users will have additional priviledges to manage inventory, promote accounts, and oversee sales activities.  
 
-- Our requirement document can be found here.
-- Our decision table can be found here.
-- Our use case diagram and description can be found here.
-- Our requirements presentation video can be found here.
+The detailed requirement document can be found here.
+
+# Use Case Diagram
+Our use case diagram and description can be found here.
+
+# Decision Table
+Our decision table can be found here.
+
+# Presentation
+Our requirements presentation video can be found here.
