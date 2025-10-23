@@ -1,3 +1,3 @@
 ## Decision Table
 
-(DecisionTable.png)
+(requirements/DecisionTable.png)
