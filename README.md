@@ -40,7 +40,7 @@ That page includes:
 
 ---
 ## Requirements
-After working closely with our client, we identified the key requirements and functionalities neccesary for the success of our system. Our project aims to create an online marketplace where users can discover and purchase unique planets. The platform will allow users to register and log in to their accounts, browse the inventory, and complete a secure checkout process that includes payment and shipping verification. Administrative users will have additional priviledges to manage inventory, promote accounts, and oversee sales activities.  
+After working closely with our client, we identified the key requirements and functionalities necessary for the success of our system. Our work aims to create an online marketplace where users can discover and purchase unique planets. The platform will allow users to register and log in to their accounts, browse inventory, and complete a secure checkout process that includes payment and shipping verification. Administrative users will have exclusive privileges allowing management of inventory, promoting accounts, and overseeing sales activities.
 
 The detailed requirement document can be found [here](requirements/README.md)
 
