@@ -1,2 +1,2 @@
 
-[Use Case](use-case.md)
+to see the [use case](use-case.md)
