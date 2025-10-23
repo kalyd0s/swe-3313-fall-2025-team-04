@@ -1,3 +1,1 @@
-Gantt Chart: ![Gantt Export](./project-plan/gantt-chart/Gantt-final.png)
-
-fixing later
+Gantt Chart: ![Gantt Export](gantt-chart/Gantt-final.png)
