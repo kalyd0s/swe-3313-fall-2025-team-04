@@ -218,7 +218,7 @@ ___
 
 ---
 
-## Version 2: Wants to Have Requirements
+## Version 2: Future Improvements
 
 ### T4E-6: Inventory & Admin Enhancements
 
