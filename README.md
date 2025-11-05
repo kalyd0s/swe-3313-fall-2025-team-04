@@ -55,6 +55,6 @@ Our requirements presentation video can be found [here](https://www.loom.com/sha
 
 ---
 ## User Interface Design
-High Fidelity User Interface design(Marvel) [here](https://marvelapp.com/prototype/g586b71)
+[High Fidelity User Interface design(Marvel)](https://marvelapp.com/prototype/g586b71)
 
 Our link to our Loom presentation can be found [here]()
