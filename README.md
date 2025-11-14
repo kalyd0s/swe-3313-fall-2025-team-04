@@ -64,6 +64,6 @@ Our link to our Loom presentation can be found [here](https://www.loom.com/share
 Intro
 blank
 
-[Technical Design](.technical-design/README.md)
+[Technical Design](technical-design)
 
 
