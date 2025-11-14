@@ -64,6 +64,6 @@ Our link to our Loom presentation can be found [here](https://www.loom.com/share
 Intro
 blank
 
-[Technical Design](technical-design)
+[Technical Design](https://github.com/kalyd0s/swe-3313-fall-2025-team-04/blob/main/technical-design/README.md)
 
 
