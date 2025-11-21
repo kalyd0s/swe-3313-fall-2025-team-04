@@ -15,7 +15,7 @@ This document outlines the technical architecture and implementation strategy fo
 - [Coding Style Guide](https://github.com/kalyd0s/swe-3313-fall-2025-team-04/blob/main/technical-design/README.md#data-examples)
 - [Technical Design Presentation](https://github.com/kalyd0s/swe-3313-fall-2025-team-04/blob/main/technical-design/README.md#data-examples)
 
-  ## Implementation Languages
+## Implementation Languages
 **Backend:** Python <br>
 - Python was chosen because our team is familiar with it and it works smoothly with the Flask framework for web development.
 - Python’s syntax is beginner-friendly and allows for fast development.
@@ -27,20 +27,21 @@ This document outlines the technical architecture and implementation strategy fo
 - Official CSS documentation: [https://developer.mozilla.org/en-US/docs/Web/CSS] 
 
 **Data:** 
-- **SQLite:**  
+
+ **SQLite** <br>
   We chose SQLite because:  
   - It is lightweight and requires no database server.  
   - All data is stored in a single file, making it easy to maintain and share.  
   - It is persistent—data remains even after the application is closed.  
   Official SQLite documentation: [https://www.sqlite.org/docs.html]
     
-  ## Implementation Framework
+## Implementation Framework
   Our team selected Flask as our main framework. <br>
   **Flask** <br>
   - Flask is a lightweight Python web framework that requires very little configuration.
   - It allows us to easily create routes, handle forms, manage sessions, and connect to our SQL database.
   - Official Flask documentation can be found here: [https://flask.palletsprojects.com/]
-  ## Data Storage Plan
+## Data Storage Plan
   Our project will use SQLite as the database and sqlite3 library to communicate with it.
   <br>
 **SQLite** <br>
@@ -53,11 +54,11 @@ This document outlines the technical architecture and implementation strategy fo
   - We will use SQL queries to insert users, store products, update carts, and process orders.
   - Official sqlite3 documentation: https://docs.python.org/3/library/sqlite3.html
     
-  ## Entity Relationship Diagram
+## Entity Relationship Diagram
   ![Big Bang Brokers ERD](assets/entity-relationship-diagram.png)
 
   
-  ## Entity/Field Descriptions
+## Entity/Field Descriptions
   #### 1. User
   | Property     | Type | Default       | Nullable | Relationship | Notes                                      |
   |:-------------| :--- |:--------------| :--- | :--- |:-------------------------------------------|
@@ -211,11 +212,11 @@ This document outlines the technical architecture and implementation strategy fo
     | 2 | Saturn | The second of the four outer planets. A gas giant that is the second largest planet in the solar system known for its rings. | 200.00 | saturn.png | False |
     | 3 | Jupiter | The first of the four outer planets. A gas giant with the iconic 'Great Red Spot'.                                           | 250.00 | jupiter.png | False |
     | 4 | Neptune | The last of the four outer planets and the most distant planet from the sun. An ice giant not visible to the naked eye.      | 180.00 | neptune.png | False |
-  ## Authentication and Authorization Plan
+## Authentication and Authorization Plan
 
-  ## Coding Style Guide
+## Coding Style Guide
 
-  ## Technical Design Presentation
+## Technical Design Presentation
   
   
 
