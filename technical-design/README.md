@@ -6,14 +6,14 @@ This document outlines the technical architecture and implementation strategy fo
 
 - [Implementation Languages](https://github.com/kalyd0s/swe-3313-fall-2025-team-04/blob/main/technical-design/README.md#implementation-languages)
 - [Implementation Framework](https://github.com/kalyd0s/swe-3313-fall-2025-team-04/blob/main/technical-design/README.md#implementation-framework)
-- [Data Storage Plan](https://github.com/kalyd0s/swe-3313-fall-2025-team-04/blob/main/technical-design/README.md#implementation-framework)
-- [Entity Relationship Diagram](https://github.com/kalyd0s/swe-3313-fall-2025-team-04/blob/main/technical-design/README.md#implementation-framework)
+- [Data Storage Plan](https://github.com/kalyd0s/swe-3313-fall-2025-team-04/blob/main/technical-design/README.md#data-storage-plan)
+- [Entity Relationship Diagram](https://github.com/kalyd0s/swe-3313-fall-2025-team-04/blob/main/technical-design/README.md#entity-relationship-diagram)
 - [Entity/Field Descriptions](https://github.com/kalyd0s/swe-3313-fall-2025-team-04/edit/main/technical-design/README.md#entityfield-descriptions)
-- [Data Examples]()
-- [Database Seed Data]()
-- [Authentication and Authorization Plan]()
-- [Coding Style Guide]()
-- [Technical Design Presentation]()
+- [Data Examples](https://github.com/kalyd0s/swe-3313-fall-2025-team-04/blob/main/technical-design/README.md#data-examples)
+- [Database Seed Data](https://github.com/kalyd0s/swe-3313-fall-2025-team-04/blob/main/technical-design/README.md#database-seed-data)
+- [Authentication and Authorization Plan](https://github.com/kalyd0s/swe-3313-fall-2025-team-04/blob/main/technical-design/README.md#data-examples)
+- [Coding Style Guide](https://github.com/kalyd0s/swe-3313-fall-2025-team-04/blob/main/technical-design/README.md#data-examples)
+- [Technical Design Presentation](https://github.com/kalyd0s/swe-3313-fall-2025-team-04/blob/main/technical-design/README.md#data-examples)
 
   ## Implementation Languages
 **Backend:** Python <br>
