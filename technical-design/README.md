@@ -48,7 +48,8 @@ This document outlines the technical architecture and implementation strategy fo
   - All data is stored in a single file, making it easy to maintain and share.
   - It is persistent, data remains even after the application is closed.
   - Official SQLite documentation: [https://www.sqlite.org/docs.html] <br>
-**SQLite3**:  <br>
+  <br>
+**sqlite3**
   - Python’s sqlite3 module will allow our Flask application to read and write to the database.
   - We will use SQL queries to insert users, store products, update carts, and process orders.
   - Official sqlite3 documentation: [https://docs.python.org/3/library/sqlite3.html]  
