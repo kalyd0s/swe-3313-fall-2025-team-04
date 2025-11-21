@@ -8,7 +8,7 @@ This document outlines the technical architecture and implementation strategy fo
 - [Implementation Framework](https://github.com/kalyd0s/swe-3313-fall-2025-team-04/blob/main/technical-design/README.md#implementation-framework)
 - [Data Storage Plan](https://github.com/kalyd0s/swe-3313-fall-2025-team-04/blob/main/technical-design/README.md#implementation-framework)
 - [Entity Relationship Diagram](https://github.com/kalyd0s/swe-3313-fall-2025-team-04/blob/main/technical-design/README.md#implementation-framework)
-- [Entity/Field Descriptions]()
+- [Entity/Field Descriptions](https://github.com/kalyd0s/swe-3313-fall-2025-team-04/edit/main/technical-design/README.md#entityfield-descriptions)
 - [Data Examples]()
 - [Database Seed Data]()
 - [Authentication and Authorization Plan]()
