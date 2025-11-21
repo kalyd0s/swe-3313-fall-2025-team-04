@@ -60,9 +60,8 @@ Our requirements presentation video can be found [here](https://www.loom.com/sha
 Our link to our Loom presentation can be found [here](https://www.loom.com/share/27e9ce8928f942399b7a1058d936986a)
 
 ---
-### Technical Design
-Intro
-blank
+## Technical Design
+Our technical design contains implementation information, data storage plan, ERD, entity descriptions, example and seed data, authentication and authorization plan, and our coding style guide.
 
 [Technical Design](https://github.com/kalyd0s/swe-3313-fall-2025-team-04/blob/main/technical-design/README.md)
 
