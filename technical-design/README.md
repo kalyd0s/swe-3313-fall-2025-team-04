@@ -4,7 +4,7 @@ This document outlines the technical architecture and implementation strategy fo
 
 ## Table of Contents
 
-- [Implementation Languages]()
+- [Implementation Languages](https://github.com/kalyd0s/swe-3313-fall-2025-team-04/blob/main/technical-design/README.md#implementation-languages)
 - [Implementation Framework]()
 - [Data Storage Plan]()
 - [Entity Relationship Diagram]()
