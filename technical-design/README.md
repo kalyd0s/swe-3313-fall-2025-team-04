@@ -5,6 +5,13 @@ This document outlines the technical architecture and implementation strategy fo
 ## Table of Contents
 
 - [Implementation Languages]()
+  ### Backend
+  Python
+- Python was chosen because our team is familiar with it and it works smoothly with the Flask framework for web development.
+- Python’s syntax is beginner-friendly and allows for fast development.
+- Official Python documentation can be found here: https://docs.python.org/
+
+  
 - [Implementation Framework]()
 - [Data Storage Plan]()
 - [Entity Relationship Diagram]()
