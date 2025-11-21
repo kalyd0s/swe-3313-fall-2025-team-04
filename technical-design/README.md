@@ -213,8 +213,50 @@ This document outlines the technical architecture and implementation strategy fo
     | 3 | Jupiter | The first of the four outer planets. A gas giant with the iconic 'Great Red Spot'.                                           | 250.00 | jupiter.png | False |
     | 4 | Neptune | The last of the four outer planets and the most distant planet from the sun. An ice giant not visible to the naked eye.      | 180.00 | neptune.png | False |
 ## Authentication and Authorization Plan
+### Authentication 
+- Users must have a valid username, email address, and password for website authentication and account creation 
+- Our SQL databases will demand unique usernames to prevent duplicacy 
+- Users must enter their email/username and password into the login page. 
+- The server performs authentication by validating these credentials with the SQL(SQLite) database using Flask 
 
+#### Forgotten Username 
+- The system will provide a “Forgot Username” option on the login page 
+- The user must enter their email address associated with their account 
+- The server will verify the email with the SQL database
+
+#### Forgotten Password 
+- The system will provide a “Forgot Password” option on the login page 
+- The authenticated user will enter the username or email associated with their account 
+- If the account exists, Flask will create a password reset prompt and send the user a link via email 
+- If the username/email is not accurate, then it will display an error message 
+#### User Role Retrieval 
+- Once the user's identity is confirmed, Flask will retrieve the is_admin boolean from the database to determine whether the user is a regular User or an Administrator 
+- Administrators do not have a second login page because they are Users 
+####Section Management 
+- After authentication succeeds, Flask stores the authenticated user role (“User” or “ADMIN”) in the active session 
+- All authentication related data (email, username, password hash and is_admin) will be stored and retrieved from the SQL databases 
+- When the user selects the logout option, Flask will clear all session data associated with the authenticated user. 
+- The session variables storing user identity (username, email, and the authorization roles “USER” or “ADMIN”) are removed 
+- After the session clears, the user will be redirected to the login page 
+#### Security 
+- SQL injection attacks are prevented by using input validation and parameterized queries. All input needs to be in the expected format. 
+### Authorization 
+
+- Admins will have the same capabilities as users 
+- Admins have other tasks besides users' tasks: 
+  - View sales history 
+  - Export sales report to CSV files 
+#### Access Restrictions 
+
+- Regular users will not be authorized to access admin pages 
+- If a regular user attempts to access an unauthorized page: 
+- The request will be blocked 
+- The user is redirected to a 404 Not Found page 
+#### Session Validation 
+- If the session is invalid or expired, the system will force the user to re-authenticate before authorization continues  
+Unauthorized access attempts will be flagged for monitoring purposes 
 ## Coding Style Guide
+
 
 ## Technical Design Presentation
   
