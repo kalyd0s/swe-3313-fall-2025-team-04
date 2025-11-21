@@ -5,13 +5,6 @@ This document outlines the technical architecture and implementation strategy fo
 ## Table of Contents
 
 - [Implementation Languages]()
-  ### Backend
-  Python
-- Python was chosen because our team is familiar with it and it works smoothly with the Flask framework for web development.
-- Python’s syntax is beginner-friendly and allows for fast development.
-- Official Python documentation can be found here: https://docs.python.org/
-
-  
 - [Implementation Framework]()
 - [Data Storage Plan]()
 - [Entity Relationship Diagram]()
@@ -23,7 +16,22 @@ This document outlines the technical architecture and implementation strategy fo
 - [Technical Design Presentation]()
 
   ## Implementation Languages
-  
+**Backend:**
+  Python
+- Python was chosen because our team is familiar with it and it works smoothly with the Flask framework for web development.
+- Python’s syntax is beginner-friendly and allows for fast development.
+- Official Python documentation can be found here: [https://docs.python.org/]
+**Frontend:**
+  HTML & CSS
+- HTML and CSS will be used to build the structure and visual design of our web pages. Flask also supports HTML templates.
+- Official HTML documentation: [https://developer.mozilla.org/en-US/docs/Web/HTML]
+- Official CSS documentation: [https://developer.mozilla.org/en-US/docs/Web/CSS]
+**Data:**
+  SQLite
+- SQL will be used to create, read, update, and delete data inside our database.
+- We are using SQLite because it stores everything in a single file, requires no server setup, and is simple for development.
+- Official SQL documentation: [https://www.w3schools.com/sql/]
+
   ## Implementation Framework
 
   ## Data Storage Plan
