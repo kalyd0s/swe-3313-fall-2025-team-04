@@ -26,11 +26,18 @@ This document outlines the technical architecture and implementation strategy fo
 - Official HTML documentation: [https://developer.mozilla.org/en-US/docs/Web/HTML]
 - Official CSS documentation: [https://developer.mozilla.org/en-US/docs/Web/CSS] 
 
-**Data:** SQLite <br>
-- SQL will be used to create, read, update, and delete data inside our database.
-- We are using SQLite because it stores everything in a single file, requires no server setup, and is simple for development.
-- Official SQL documentation: [https://www.w3schools.com/sql/]
+**Data:** 
+- **SQLite:**  
+  We chose SQLite because:  
+  - It is lightweight and requires no database server.  
+  - All data is stored in a single file, making it easy to maintain and share.  
+  - It is persistent—data remains even after the application is closed.  
+  **Official SQLite documentation:** https://www.sqlite.org/docs.html  
 
+- **sqlite3:**  
+  Python’s `sqlite3` module allows our Flask application to read and write to the database.    
+  We will use SQL queries to insert users, store products, update carts, and process orders.
+  **Official sqlite3 documentation:** https://docs.python.org/3/library/sqlite3.html
   ## Implementation Framework
   Our team selected Flask as our main framework. <br>
   **Flask** <br>
