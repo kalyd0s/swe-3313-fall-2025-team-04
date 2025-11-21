@@ -54,7 +54,7 @@ This document outlines the technical architecture and implementation strategy fo
   - Official sqlite3 documentation: https://docs.python.org/3/library/sqlite3.html
     
   ## Entity Relationship Diagram
-![Big Bang Brokers ERD](assets/entity-relationship-diagram.png)
+  ![Big Bang Brokers ERD](assets/entity-relationship-diagram.png)
 
   
   ## Entity/Field Descriptions
