@@ -132,7 +132,82 @@ This document outlines the technical architecture and implementation strategy fo
   | **PlanetID** | INT |               | No | FK (Planet.PlanetID) | The planet purchased.                                                      |
   | **PriceAtPurchase** | DECIMAL(10, 2) |               | No | | Copy of price at time of sale (in Billions) (For use in the sales report). |
   ## Data Examples
+  ####  User
+| UserID | Username | Email | Password      | IsAdmin |
+| :--- | :--- | :--- |:--------------| :--- |
+| 1 | elon_mars_fan | elon@spacex.com | 7h8j9k0l1m2n3 | False |
+| 2 | jeff_blue | jeff@origin.com | 1a2b3c4d5e6f  | False |
+| 3 | astro_mike | mike@nasa.gov | 9z8y7x6w5v4   | False |
 
+<br>
+
+####  Planet
+| PlanetID | Name | Description | Price | ImageURL | IsSold |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| 1 | Mercury | The swift planet. | 100.00 | mercury.png | False |
+| 2 | Saturn | Famous for its rings. | 200.00 | saturn.png | False |
+| 3 | Jupiter | The largest gas giant. | 250.00 | jupiter.png | True |
+| 4 | Neptune | The windiest icy giant. | 180.00 | neptune.png | False |
+
+<br>
+
+#### Cart
+| CartID | UserID |
+| :--- | :--- |
+| 1 | 1 |
+| 2 | 2 |
+| 3 | 3 |
+
+<br>
+
+#### CartItem
+| CartItemID | CartID | PlanetID |
+| :--- | :--- | :--- |
+| 1 | 1 | 1 |
+| 2 | 1 | 4 |
+| 3 | 3 | 2 |
+
+<br>
+
+#### OrderAddress
+| AddressID | FullName | PhoneNumber | Email | AddressLine1 | AddressLine2 | ZipCode |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| 1 | Elon Musk | 555-0199 | elon@spacex.com | 1 Starbase Ln | | 78520 |
+| 2 | Jeff Bezos | 555-0100 | jeff@origin.com | 1 Blue Road | Suite 100 | 98001 |
+| 3 | Mike Hopkins | 555-0500 | mike@nasa.gov | 2 Johnson Space Ctr | | 77058 |
+
+<br>
+
+#### Order
+| OrderID | UserID | BillingAddressID | ShippingAddressID | OrderDate | ShippingCost | Tax | TotalAmount | OrderStatus |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| 1 | 1 | 1 | 1 | 2025-11-01 10:30:00 | 29.00 | 15.00 | 294.00 | Processing |
+| 2 | 2 | 2 | 2 | 2025-11-02 14:15:00 | 19.00 | 12.00 | 231.00 | Shipped |
+| 3 | 3 | 3 | 3 | 2025-11-03 09:00:00 | 0.00 | 6.00 | 106.00 | Delivered |
+
+<br>
+
+#### OrderItem
+| OrderItemID | OrderID | PlanetID | PriceAtPurchase |
+| :--- | :--- | :--- | :--- |
+| 1 | 1 | 3 | 250.00 |
+| 2 | 2 | 2 | 200.00 |
+| 3 | 3 | 1 | 100.00 |
+  ## Database Seed Data
+  #### 1. Entity: User (Initial Administrator)
+| UserID | Username | Email | Password       | IsAdmin |
+| :--- | :--- | :--- |:---------------| :--- |
+| 1 | christylovesplanets | admin@bigbangbrokers.com | Secure Passord | True |
+
+<br>
+
+#### 2. Entity: Planet (Initial Inventory)
+| PlanetID | Name | Description                                                                                                                  | Price | ImageURL | IsSold |
+| :--- | :--- |:-----------------------------------------------------------------------------------------------------------------------------| :--- | :--- | :--- |
+| 1 | Mercury | The first of four inner terrestrial planets consisting of rock. The closest planet to the sun and the smallest planet in the solar system.                                                   | 100.00 | mercury.png | False |
+| 2 | Saturn | The second of the four outer planets. A gas giant that is the second largest planet in the solar system known for its rings. | 200.00 | saturn.png | False |
+| 3 | Jupiter | The first of the four outer planets. A gas giant with the iconic 'Great Red Spot'.                                           | 250.00 | jupiter.png | False |
+| 4 | Neptune | The last of the four outer planets and the most distant planet from the sun. An ice giant not visible to the naked eye.      | 180.00 | neptune.png | False |
   ## Authentication and Authorization Plan
 
   ## Coding Style Guide
