@@ -202,13 +202,13 @@ This document outlines the technical architecture and implementation strategy fo
 
   <br>
 
-#### 2. Entity: Planet (Initial Inventory)
-  | PlanetID | Name | Description                                                                                                                  | Price | ImageURL | IsSold |
-  | :--- | :--- |:-----------------------------------------------------------------------------------------------------------------------------| :--- | :--- | :--- |
-  | 1 | Mercury | The first of four inner terrestrial planets consisting of rock. The closest planet to the sun and the smallest planet in the solar system.                                                   | 100.00 | mercury.png | False |
-  | 2 | Saturn | The second of the four outer planets. A gas giant that is the second largest planet in the solar system known for its rings. | 200.00 | saturn.png | False |
-  | 3 | Jupiter | The first of the four outer planets. A gas giant with the iconic 'Great Red Spot'.                                           | 250.00 | jupiter.png | False |
-  | 4 | Neptune | The last of the four outer planets and the most distant planet from the sun. An ice giant not visible to the naked eye.      | 180.00 | neptune.png | False |
+  #### 2. Entity: Planet (Initial Inventory)
+    | PlanetID | Name | Description                                                                                                                  | Price | ImageURL | IsSold |
+    | :--- | :--- |:-----------------------------------------------------------------------------------------------------------------------------| :--- | :--- | :--- |
+    | 1 | Mercury | The first of four inner terrestrial planets consisting of rock. The closest planet to the sun and the smallest planet in the solar system.                                                   | 100.00 | mercury.png | False |
+    | 2 | Saturn | The second of the four outer planets. A gas giant that is the second largest planet in the solar system known for its rings. | 200.00 | saturn.png | False |
+    | 3 | Jupiter | The first of the four outer planets. A gas giant with the iconic 'Great Red Spot'.                                           | 250.00 | jupiter.png | False |
+    | 4 | Neptune | The last of the four outer planets and the most distant planet from the sun. An ice giant not visible to the naked eye.      | 180.00 | neptune.png | False |
   ## Authentication and Authorization Plan
 
   ## Coding Style Guide
