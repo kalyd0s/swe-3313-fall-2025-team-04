@@ -32,7 +32,7 @@ This document outlines the technical architecture and implementation strategy fo
   - It is lightweight and requires no database server.  
   - All data is stored in a single file, making it easy to maintain and share.  
   - It is persistent—data remains even after the application is closed.  
-  **Official SQLite documentation:** https://www.sqlite.org/docs.html
+  Official SQLite documentation: [https://www.sqlite.org/docs.html]
     
   ## Implementation Framework
   Our team selected Flask as our main framework. <br>
