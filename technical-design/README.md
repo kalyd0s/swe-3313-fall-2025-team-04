@@ -32,9 +32,24 @@ This document outlines the technical architecture and implementation strategy fo
 - Official SQL documentation: [https://www.w3schools.com/sql/]
 
   ## Implementation Framework
-
+  Our team selected Flask as our main framework. <br>
+  **Flask** <br>
+  - Flask is a lightweight Python web framework that requires very little configuration.
+  - It allows us to easily create routes, handle forms, manage sessions, and connect to our SQL database.
+  - Official Flask documentation can be found here: [https://flask.palletsprojects.com/]
   ## Data Storage Plan
-
+  Our project will use SQLite as the database and sqlite3 library to communicate with it.
+**SQLite** <br>
+We chose SQLite because: <br>
+- It is lightweight and requires no database server.
+- All data is stored in a single file, making it easy to maintain and share.
+- It is persistent, data remains even after the application is closed.
+- Official SQLite documentation: [https://www.sqlite.org/docs.html]
+<br>
+**SQLite3** <br>
+  - Python’s sqlite3 module will allow our Flask application to read and write to the database.
+  - We will use SQL queries to insert users, store products, update carts, and process orders.
+  - Official sqlite3 documentation: [https://docs.python.org/3/library/sqlite3.html]
   ## Entity Relationship Diagram
 
   ## Entity/Field Descriptions
