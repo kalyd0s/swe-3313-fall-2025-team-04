@@ -188,13 +188,13 @@ This document outlines the technical architecture and implementation strategy fo
 <br>
 
 #### OrderItem
-    | OrderItemID | OrderID | PlanetID | PriceAtPurchase |
-    | :--- | :--- | :--- | :--- |
-    | 1 | 1 | 3 | 250.00 |
-    | 2 | 2 | 2 | 200.00 |
-    | 3 | 3 | 1 | 100.00 |
+  | OrderItemID | OrderID | PlanetID | PriceAtPurchase |
+  | :--- | :--- | :--- | :--- |
+  | 1 | 1 | 3 | 250.00 |
+  | 2 | 2 | 2 | 200.00 |
+  | 3 | 3 | 1 | 100.00 |
     
-    ## Database Seed Data
+  ## Database Seed Data
   #### 1. Entity: User (Initial Administrator)
   | UserID | Username | Email | Password       | IsAdmin |
   | :--- | :--- | :--- |:---------------| :--- |
