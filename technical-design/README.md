@@ -232,7 +232,7 @@ This document outlines the technical architecture and implementation strategy fo
 #### User Role Retrieval 
 - Once the user's identity is confirmed, Flask will retrieve the is_admin boolean from the database to determine whether the user is a regular User or an Administrator 
 - Administrators do not have a second login page because they are Users 
-####Section Management 
+#### Section Management 
 - After authentication succeeds, Flask stores the authenticated user role (“User” or “ADMIN”) in the active session 
 - All authentication related data (email, username, password hash and is_admin) will be stored and retrieved from the SQL databases 
   - When the user selects the logout option, Flask will clear all session data associated with the authenticated user. 
