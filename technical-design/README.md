@@ -214,6 +214,7 @@ This document outlines the technical architecture and implementation strategy fo
     | 4 | Neptune | The last of the four outer planets and the most distant planet from the sun. An ice giant not visible to the naked eye.      | 180.00 | neptune.png | False |
 ## Authentication and Authorization Plan
 ### Authentication 
+
 - Users must have a valid username, email address, and password for website authentication and account creation 
 - Our SQL databases will demand unique usernames to prevent duplicacy 
 - Users must enter their email/username and password into the login page. 
@@ -223,7 +224,8 @@ This document outlines the technical architecture and implementation strategy fo
 - The system will provide a “Forgot Username” option on the login page 
 - The user must enter their email address associated with their account 
 - The server will verify the email with the SQL database
-
+- If correct, then Flask will send the username to the registered email
+- If the email is incorrect, then it will display an error message 
 #### Forgotten Password 
 - The system will provide a “Forgot Password” option on the login page 
 - The authenticated user will enter the username or email associated with their account
@@ -240,7 +242,8 @@ This document outlines the technical architecture and implementation strategy fo
 - The session variables storing user identity (username, email, and the authorization roles “USER” or “ADMIN”) are removed 
 - After the session clears, the user will be redirected to the login page 
 #### Security 
-- SQL injection attacks are prevented by using input validation and parameterized queries. All input needs to be in the expected format. 
+- SQL injection attacks are prevented by using input validation and parameterized queries. All input needs to be in the expected format.
+  
 ### Authorization 
 
 - Admins will have the same capabilities as users 
