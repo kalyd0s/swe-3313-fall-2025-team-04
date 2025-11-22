@@ -261,7 +261,7 @@ This document outlines the technical architecture and implementation strategy fo
 Unauthorized access attempts will be flagged for monitoring purposes 
 ## Coding Style Guide
 
-- When it comes to coding in Python, it can be very strict when it comes to order and format. The official website for Python is [here](https://peps.python.org/pep-0008/)
+- Coding in Python can be very strict when it comes to order and format. The official website for Python is [here](https://peps.python.org/pep-0008/)
   
 - Have the imports on separate lines and put a blank space between a group of imports. 
 - Include whitespace around operators, commas for readability. Use whitespace around the default or keyword args. 
