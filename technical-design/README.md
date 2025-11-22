@@ -226,8 +226,9 @@ This document outlines the technical architecture and implementation strategy fo
 
 #### Forgotten Password 
 - The system will provide a “Forgot Password” option on the login page 
-- The authenticated user will enter the username or email associated with their account 
-- If the account exists, Flask will create a password reset prompt and send the user a link via email 
+- The authenticated user will enter the username or email associated with their account
+- If the account exists, Flask will create a password reset prompt and send the user a link via email
+- After the user creates the new password, the new password is hashed and stored in the database 
 - If the username/email is not accurate, then it will display an error message 
 #### User Role Retrieval 
 - Once the user's identity is confirmed, Flask will retrieve the is_admin boolean from the database to determine whether the user is a regular User or an Administrator 
