@@ -258,7 +258,7 @@ This document outlines the technical architecture and implementation strategy fo
   - The user is redirected to a 404 Not Found page 
 #### Session Validation 
 - If the session is invalid or expired, the system will force the user to re-authenticate before authorization continues  
-Unauthorized access attempts will be flagged for monitoring purposes 
+- Unauthorized access attempts will be flagged for monitoring purposes 
 ## Coding Style Guide
 
 - Coding in Python can be very strict when it comes to order and format. The official website for Python is [here](https://peps.python.org/pep-0008/)
