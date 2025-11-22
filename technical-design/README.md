@@ -235,8 +235,8 @@ This document outlines the technical architecture and implementation strategy fo
 ####Section Management 
 - After authentication succeeds, Flask stores the authenticated user role (“User” or “ADMIN”) in the active session 
 - All authentication related data (email, username, password hash and is_admin) will be stored and retrieved from the SQL databases 
-- When the user selects the logout option, Flask will clear all session data associated with the authenticated user. 
-- The session variables storing user identity (username, email, and the authorization roles “USER” or “ADMIN”) are removed 
+  - When the user selects the logout option, Flask will clear all session data associated with the authenticated user. 
+  - The session variables storing user identity (username, email, and the authorization roles “USER” or “ADMIN”) are removed 
 - After the session clears, the user will be redirected to the login page 
 #### Security 
 - SQL injection attacks are prevented by using input validation and parameterized queries. All input needs to be in the expected format. 
@@ -250,12 +250,39 @@ This document outlines the technical architecture and implementation strategy fo
 
 - Regular users will not be authorized to access admin pages 
 - If a regular user attempts to access an unauthorized page: 
-- The request will be blocked 
-- The user is redirected to a 404 Not Found page 
+  - The request will be blocked 
+  - The user is redirected to a 404 Not Found page 
 #### Session Validation 
 - If the session is invalid or expired, the system will force the user to re-authenticate before authorization continues  
 Unauthorized access attempts will be flagged for monitoring purposes 
 ## Coding Style Guide
+
+- When it comes to coding in Python, it can be very strict when it comes to order and format. The official website for Python is [here](https://peps.python.org/pep-0008/)
+  
+- Have the imports on separate lines and put a blank space between a group of imports. 
+- Include whitespace around operators, commas for readability. Use whitespace around the default or keyword args. 
+  - No spaces inside parentheses and brackets 
+- Use snake case for variables and functions with meaningful names. 
+- Use PascalCase for classes. 
+  - (Ex: ClassPaymentProcessor) 
+- Modules and packages keep naming conventions that are all lowercase with underscores for spaces and a short length. 
+- Indentation uses four spaces for each indentation level 
+- Lines should have no less than 79 characters per line; For a long expression utilize break after operators or natural boundaries 
+- Blank lines are used to group logical sections inside functions; Two blank lines allowed between the top-level classes and functions; Only one blank line between methods inside a class 
+- Use double quotes but in long text blocks use triple quotes 
+- Use Python’s default UTF or ASCII encodings
+  
+#### Automated Testing 
+
+- Use Unit Tests built into Python with xUnit-style classes and methods. 
+- All tests must be in a “tests/ “directory with files named “test_*.py” or “*_test.py”. 3.The test names will be concise and clear with only one assertion per behavior (Multiple related assertions are allowed)
+  
+#### Integration Testing 
+
+- Testing multiple components working together with DB+ API, services, and external APIs. It will be run using pytest will be plugged into CI 
+- Pytesting will auto-discover tests in the test_*.py files. We will make use of easy assertions. 
+- Every error will require a written failing test (applies to unit or integration) and then the bug will be fixed, and the test will remain to stop regression 
+ 
 
 
 ## Technical Design Presentation
