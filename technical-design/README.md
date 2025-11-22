@@ -12,8 +12,8 @@ This document outlines the technical architecture and implementation strategy fo
 - [Data Examples](https://github.com/kalyd0s/swe-3313-fall-2025-team-04/blob/main/technical-design/README.md#data-examples)
 - [Database Seed Data](https://github.com/kalyd0s/swe-3313-fall-2025-team-04/blob/main/technical-design/README.md#database-seed-data)
 - [Authentication and Authorization Plan](https://github.com/kalyd0s/swe-3313-fall-2025-team-04/blob/main/technical-design/README.md#authentication-and-authorization-plan)
-- [Coding Style Guide](https://github.com/kalyd0s/swe-3313-fall-2025-team-04/blob/main/technical-design/README.md#data-examples)
-- [Technical Design Presentation](https://github.com/kalyd0s/swe-3313-fall-2025-team-04/blob/main/technical-design/README.md#data-examples)
+- [Coding Style Guide](https://github.com/kalyd0s/swe-3313-fall-2025-team-04/blob/main/technical-design/README.md#coding-style-guide)
+- [Technical Design Presentation](https://github.com/kalyd0s/swe-3313-fall-2025-team-04/blob/main/technical-design/README.md#technical-design-presentation)
 
 ## Implementation Languages
 **Backend:** Python <br>
