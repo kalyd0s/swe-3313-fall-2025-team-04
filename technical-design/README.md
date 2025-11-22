@@ -294,5 +294,5 @@ This document outlines the technical architecture and implementation strategy fo
 View our loom video [here]()
 
 ## Ai Acknowledgement
-AI Acknowledgement: Portions of this submission were developed with the assistance of an AI tool (Gemini, Google AI). The AI assisted in creating the ERD and helped with Markdown formatting  
+Portions of this submission were developed with the assistance of an AI tool (Gemini, Google AI). The AI assisted in creating the ERD and helped with Markdown formatting  
 
