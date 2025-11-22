@@ -235,8 +235,8 @@ This document outlines the technical architecture and implementation strategy fo
 #### Section Management 
 - After authentication succeeds, Flask stores the authenticated user role (“User” or “ADMIN”) in the active session 
 - All authentication related data (email, username, password hash and is_admin) will be stored and retrieved from the SQL databases 
-  - When the user selects the logout option, Flask will clear all session data associated with the authenticated user. 
-  - The session variables storing user identity (username, email, and the authorization roles “USER” or “ADMIN”) are removed 
+- When the user selects the logout option, Flask will clear all session data associated with the authenticated user. 
+- The session variables storing user identity (username, email, and the authorization roles “USER” or “ADMIN”) are removed 
 - After the session clears, the user will be redirected to the login page 
 #### Security 
 - SQL injection attacks are prevented by using input validation and parameterized queries. All input needs to be in the expected format. 
