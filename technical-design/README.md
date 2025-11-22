@@ -291,5 +291,5 @@ This document outlines the technical architecture and implementation strategy fo
 
 ## Technical Design Presentation
   
-  
+View our loom video [here]()
 
