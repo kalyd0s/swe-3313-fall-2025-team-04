@@ -27,7 +27,7 @@ Important(Windows Only)
  The application uses SQLite database for data storage, inlcuding user accounts, administrator accounts, and inventory information
  
  1. Ensure Virtual Environment is active
-Before running database commands, active the virtual environment:
+Before running database commands, activate the virtual environment:
   - macOS/Linux: ".venv/bin/activate"
   - Windows: ".\.venv\Scripts\activate"
  
