@@ -69,5 +69,10 @@ Our technical design contains implementation information, data storage plan, ERD
 ## Implementation
 [Implementation](https://github.com/kalyd0s/swe-3313-fall-2025-team-04/tree/main/implementation)
 
+-- 
+## Final Presentation
+
+[The link to our Final Presentation is [here]().
+
 
 
