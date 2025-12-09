@@ -103,8 +103,8 @@ Before running database commands, active the virtual environment:
    -  You must see (.venv) before continuing
  - Step 4 - Start the Flask application
    - run the main file.py
-   - you should see Running on http:// 127.0.0.1:5000
- - Step 5 - Open the application in a browswer
+   - If the server runs successfully, you should see a simialr message like running on http:// 127.0.0.1:5000
+ - Step 5 - Open the application in a browser
    - Once the terminal shows that the flask is running, open the URL in any browser
    - http://localhost:5000 or if it uses a custom port, replace 5000 with that number
  - Step 6- Login Credentials
@@ -115,7 +115,7 @@ Before running database commands, active the virtual environment:
 
  - Step 7 -Shut down the application
   - To stop the flask server:
-   - Return to the terminal using the app and press CTRL-C
+    - Return to the terminal using the app and press CTRL-C
      
    This will stop the application
    
