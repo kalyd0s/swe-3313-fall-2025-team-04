@@ -101,9 +101,9 @@ Before running database commands, active the virtual environment:
    -  macOS/Linux: source .venv/bin/activate
    -  Windows: .\.venv\Scripts\activate
    -  You must see (.venv) before continuing
- - Step 4 - Install the requirements.txt with pip --version install -r requirements.txt
+ - Step 4 - Install the requirements.txt --> pip --version install -r requirements.txt
  - Step 5 - Start the Flask application
-   - run the main application: python main.py
+   - run the main application: python --version main.py
    - If the server runs successfully, you should see a similar message like running on http:// 127.0.0.1:5000
  - Step 6 - Open the application in a browser
    - Once the terminal shows that the flask is running, open the URL in any browser
