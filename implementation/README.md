@@ -34,7 +34,7 @@ A virtual environment isolates all project-specific packages
      
 6. Install Flask
    - open terminal and run pip install flask
-   - if the project includes a requirement.txt file then do pip install -r requirements.txt
+   - if the project includes a requirement.txt file then do pip --version install -r requirements.txt
 
 7. Verify Flask Installation
 - use python -c "import flask; print('Flask installed:', flask.version__)"
