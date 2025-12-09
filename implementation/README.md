@@ -18,7 +18,7 @@ Important(Windows Only)
 - Open a terminal and run: python --version and pip --version
   
 
-3. Create a Project Directory
+3. Navigate to the directory where you have the project saved. For example, if it is saved in your desktop, paste the following into your terminal.
 - Example: myproject/
 
 4. Create a virtual environment(optional)
@@ -27,8 +27,8 @@ A virtual environment isolates all project-specific packages
 - python- m venv .venv - this will create a folder called .venv in the project directory
   
 5.  Activate the virtual environment
-   - macOs/Linux( source .venv/bin/activate
-   - Windows(.\venv/Scripts\activate
+   - macOs/Linux(source .venv/bin/activate)
+   - Windows(.\venv/Scripts\activate)
 
      After activation, the terminal prompt will appear as (.venv)
      
