@@ -72,7 +72,7 @@ Our technical design contains implementation information, data storage plan, ERD
 -- 
 ## Final Presentation
 
-[The link to our Final Presentation is [here]().
+The link to our Final Presentation is [here]().
 
 
 
