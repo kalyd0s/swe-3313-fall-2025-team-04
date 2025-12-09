@@ -35,7 +35,7 @@ Before running database commands, activate the virtual environment:
     - The database file(app.db) is generated automatically
     - Run the database setup script: python init_db.py
   This performs the following:
-    - Creates all required tables(Users Inventory,etc)
+    - Creates all required tables(Users, Inventory, and etc)
     - Loads seed data into each table
     - Inserts:
       -  1 user
