@@ -14,8 +14,8 @@ Important(Windows Only)
 - Add Python to Path to avoid manual environment variable setup
   
     
-2. Verify Installation
-- Open a terminal and run: python --version and pip --version
+2. Verify Python Installation
+- Open the terminal and run: python3 and pip3
   
 
 3. Create Directory
@@ -34,8 +34,8 @@ A virtual environment will isolate all project-specific packages
      After activation, the terminal prompt will appear as (.venv)
      
 6. Install Flask
-   - open terminal and run pip install flask
-   - if the project includes a requirement.txt file then do pip --version install -r requirements.txt
+   - open terminal and run pip3 install flask
+   - if the project includes a requirement.txt file then do pip3 install -r requirements.txt
 
 7. Verify Flask Installation
 - use python -c "import flask; print('Flask installed:', flask.version__)"
@@ -91,23 +91,23 @@ Before running database commands, active the virtual environment:
     
       
 6. Application Database Usage
-  - When the flask application run, it should automatically connect to the app.db using
+  - When the flask application runs, it should automatically connect to the app.db using
     the connection settings in the configuration file(config.py) or in the flask app factory
 ---
 ## How to Start and Login
- - Step 1- Open a terminal (Use Terminal( macOS/Linux) or Command Prompt/ Powershell (Windows))
+ - Step 1- Open the terminal --> Command + space ( macOS/Linux) or Command Prompt/ Powershell (Windows))
  - Step 2 - Navigate to the project directory. For example, if it is saved to your desktop, paste the following into your terminal.
    - cd ~/Desktop/"Big Bang Brokers"
  - Step 3- Activate the virtual environment 
    -  macOS/Linux: source .venv/bin/activate
    -  Windows: .\.venv\Scripts\activate
    -  You must see (.venv) before continuing
- - Step 4 - Install the requirements.txt --> pip --version install -r requirements.txt
+ - Step 4 - Install the requirements.txt --> pip3 install -r requirements.txt
  - Step 5 - Start the Flask application
-   - run the main application: python --version main.py
+   - run the main application: python3 main.py
    - If the server runs successfully, you should see a similar message like running on http:// 127.0.0.1:5000
  - Step 6 - Open the application in a browser
-   - Once the terminal shows that the flask is running, open the URL in any browser
+   - Once the terminal shows that flask is running, open the URL in any browser
    - Go to http://localhost:5000 or http:// 127.0.0.1:5000. If it uses a custom port, replace 5000 with that number
  - Step 7- Login Credentials
    | Username | Password | Role           |
@@ -117,8 +117,8 @@ Before running database commands, active the virtual environment:
 
  - Step 8 -Shut down the application
   - To stop the flask server:
-    - Return to the terminal using the app and press CTRL-C
-     
+    - Return to the terminal running the application and press CTRL-C
+   
    This will stop the application
    
 --- 
