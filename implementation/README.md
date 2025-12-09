@@ -21,10 +21,10 @@ Important(Windows Only)
 3. Create a Project Directory
 - Example: myproject/
 
-4. Create a virtual environment
+4. Create a virtual environment(optional)
 
 A virtual environment isolates all project-specific packages
-- python- m venv .venv - this will create a folder called .venve in the project directory
+- python- m venv .venv - this will create a folder called .venv in the project directory
   
 5.  Activate the virtual environment
    - macOs/Linux( source .venv/bin/activate
@@ -50,7 +50,7 @@ A virtual environment isolates all project-specific packages
  1. Ensure Virtual Environment is active
 Before running database commands, active the virtual environment:
   - macOS/Linux(.venv/bin/activate)
-  - Windows(.\venv\Scripts\activate)
+  - Windows(.\.venv\Scripts\activate)
  
  2. Create a Database
     - The database file(app.db) is generated automatically
@@ -96,18 +96,19 @@ Before running database commands, active the virtual environment:
 ## How to Start and Login
  - Step 1- Open a terminal (Use Terminal( macOS/Linux) or Command Prompt/ Powershell (Windows))
  - Step 2 - Navigate to the project directory
-   - Example: Desktop/project
- - Step 3- Activate the virtual environment
-   -  macOS/Linux (.venv/bin/activate)
-   -  Windows (.\.venv\Scripts\activate)
+   - Example: type cd ~/Desktop then afterwards cd "project filename"
+ - Step 3- Activate the virtual environment 
+   -  macOS/Linux: source .venv/bin/activate
+   -  Windows: .\.venv\Scripts\activate
    -  You must see (.venv) before continuing
- - Step 4 - Start the Flask application
-   - run the main file.py
-   - If the server runs successfully, you should see a simialr message like running on http:// 127.0.0.1:5000
- - Step 5 - Open the application in a browser
+ - Step 4 - run your pip version 
+ - Step 5 - Start the Flask application
+   - run the main application: python main.py
+   - If the server runs successfully, you should see a similar message like running on http:// 127.0.0.1:5000
+ - Step 6 - Open the application in a browser
    - Once the terminal shows that the flask is running, open the URL in any browser
-   - http://localhost:5000 or if it uses a custom port, replace 5000 with that number
- - Step 6- Login Credentials
+   - Go to http://localhost:5000 or http:// 127.0.0.1:5000. If it uses a custom port, replace 5000 with that number
+ - Step 7- Login Credentials
    | Username | Password | Role           |
    |----------| ---------|----------------|
    | user1    | user123  | Regular User   |
