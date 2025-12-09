@@ -23,7 +23,7 @@ Important(Windows Only)
 
 4. Create a virtual environment(optional)
 
-A virtual environment will isolate all project-specific package
+A virtual environment will isolate all project-specific packages
 - python- m venv .venv - this will create a folder called .venv in the project directory
   
 5.  Activate the virtual environment
