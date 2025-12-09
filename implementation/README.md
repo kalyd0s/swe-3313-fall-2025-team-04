@@ -1,6 +1,6 @@
 ## Environment Setup
 What you need:
-1. Install Python(Version 3.12 or 3.13)
+1. Install Python(Version 3.13)
    
 The project should use a current version of Python
   - Python - [Official Link](https://www.python.org/downloads/)
