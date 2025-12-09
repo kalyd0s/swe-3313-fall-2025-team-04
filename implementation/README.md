@@ -18,8 +18,9 @@ Important(Windows Only)
 - Open a terminal and run: python --version and pip --version
   
 
-3. Navigate to the directory where you have the project saved. For example, if it is saved in your desktop, paste the following into your terminal.
-- cd ~/Desktop/"Big Bang Brokers"
+3. Create Directory
+- Example: myproject/
+
 
 4. Create a virtual environment(optional)
 
