@@ -49,8 +49,8 @@ A virtual environment isolates all project-specific packages
  
  1. Ensure Virtual Environment is active
 Before running database commands, active the virtual environment:
-  - macOS/Linux(.venv/bin/activate)
-  - Windows(.\.venv\Scripts\activate)
+  - macOS/Linux: .venv/bin/activate
+  - Windows: .\.venv\Scripts\activate
  
  2. Create a Database
     - The database file(app.db) is generated automatically
