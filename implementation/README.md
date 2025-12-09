@@ -108,7 +108,7 @@ Before running database commands, active the virtual environment:
    - If the server runs successfully, you should see a similar message like running on http:// 127.0.0.1:5000
  - Step 6 - Open the application in a browser
    - Once the terminal shows that flask is running, open the URL in any browser
-   - Go to http://localhost:5000 or http:// 127.0.0.1:5000. If it uses a custom port, replace 5000 with that number
+   - Go to http:// localhost:5000 or http:// 127.0.0.1:5000. If it uses a custom port, replace 5000 with that number
  - Step 7- Login Credentials
    | Username | Password | Role           |
    |----------| ---------|----------------|
