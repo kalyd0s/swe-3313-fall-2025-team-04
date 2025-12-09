@@ -108,8 +108,19 @@ Before running database commands, active the virtual environment:
    - Once the terminal shows that the flask is running, open the URL in any browser
    - http://localhost:5000 or if it uses a custom port, replace 5000 with that number
  - Step 6- Login Credentials
- - 
-       
+   | Username | Password | Role           |
+   |----------| ---------|----------------|
+   | user1    | user123  | Regular User   |
+   | admin    | admin    | Administrator  |
+
+ - Step 7 -Shut down the application
+  - To stop the flask server:
+   - Return to the terminal using the app and press CTRL-C
+     
+   This will stop the application
+   
+--- 
+## TroubleShooting
     
  
  
