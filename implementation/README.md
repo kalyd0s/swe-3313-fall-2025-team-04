@@ -114,7 +114,7 @@ Before running database commands, active the virtual environment:
    | user1    | user123  | Regular User   |
    | admin    | admin    | Administrator  |
 
- - Step 7 -Shut down the application
+ - Step 8 -Shut down the application
   - To stop the flask server:
     - Return to the terminal using the app and press CTRL-C
      
