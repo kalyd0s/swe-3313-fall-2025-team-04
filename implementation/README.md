@@ -16,32 +16,10 @@ Important(Windows Only)
     
 2. Verify Python Installation
 - Open the terminal and type: "python3 --version" and "pip3 --version"
-  
-
-3. Create Directory
-- Example: myproject/
 
 
-4. Create a virtual environment(optional)
-
-A virtual environment will isolate all project-specific packages
-- python- m venv .venv - this will create a folder called .venv in the project directory
-  
-5.  Activate the virtual environment
-   - macOs/Linux: "source .venv/bin/activate"
-   - Windows: ".\.venv/Scripts\activate"
-
-     After activation, the terminal prompt will appear as (.venv)
-     
-6. Install Flask
-   - open terminal and run pip3 install flask
-   - if the project includes a requirement.txt file then type "pip3 install -r requirements.txt"
-
-7. Verify Flask Installation
-- use python -c "import flask; print('Flask installed:', flask.version__)"
-
-8. Run the application
-- once dependencies are installed, the application can be launched with a standard .py file
+3. Run the application
+- Once dependencies are installed, the application can be launched with a standard .py file. Please proceed to "How to Start and Login"
   
  ---
  ## Database Setup
@@ -102,7 +80,7 @@ Before running database commands, active the virtual environment:
    -  macOS/Linux: "source .venv/bin/activate"
    -  Windows: ".\.venv\Scripts\activate"
    -  You must see (.venv) before continuing
- - Step 4 - Install the requirements.txt --> "pip3 install -r requirements.txt"
+ - Step 4 - Install the requirements.txt --> "pip3 install -r requirements.txt" 
  - Step 5 - Start the Flask application
    - run the main application: "python3 main.py"
    - If the server runs successfully, you should see a similar message like running on http:// 127.0.0.1:5000
