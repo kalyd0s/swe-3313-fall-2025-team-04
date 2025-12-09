@@ -19,7 +19,7 @@ Important(Windows Only)
   
 
 3. Navigate to the directory where you have the project saved. For example, if it is saved in your desktop, paste the following into your terminal.
-- Example: myproject/
+ cd ~/Desktop/"Big Bang Brokers"
 
 4. Create a virtual environment(optional)
 
