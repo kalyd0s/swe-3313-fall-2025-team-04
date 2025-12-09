@@ -15,7 +15,7 @@ Important(Windows Only)
   
     
 2. Verify Python Installation
-- Open the terminal and run: python3 and pip3
+- Open the terminal and type: "python3 --version" and "pip3 --version"
   
 
 3. Create Directory
@@ -28,14 +28,14 @@ A virtual environment will isolate all project-specific packages
 - python- m venv .venv - this will create a folder called .venv in the project directory
   
 5.  Activate the virtual environment
-   - macOs/Linux: source .venv/bin/activate
-   - Windows: .\venv/Scripts\activate
+   - macOs/Linux: "source .venv/bin/activate"
+   - Windows: ".\venv/Scripts\activate"
 
      After activation, the terminal prompt will appear as (.venv)
      
 6. Install Flask
    - open terminal and run pip3 install flask
-   - if the project includes a requirement.txt file then do pip3 install -r requirements.txt
+   - if the project includes a requirement.txt file then type "pip3 install -r requirements.txt"
 
 7. Verify Flask Installation
 - use python -c "import flask; print('Flask installed:', flask.version__)"
@@ -95,7 +95,7 @@ Before running database commands, active the virtual environment:
     the connection settings in the configuration file(config.py) or in the flask app factory
 ---
 ## How to Start and Login
- - Step 1- Open the terminal --> Command + space ( macOS/Linux) or Command Prompt/ Powershell (Windows))
+ - Step 1- Open the terminal --> Command + space ( macOS/Linux) or Command Prompt/Powershell (Windows))
  - Step 2 - Navigate to the project directory. For example, if it is saved to your desktop, paste the following into your terminal.
    - cd ~/Desktop/"Big Bang Brokers"
  - Step 3- Activate the virtual environment 
