@@ -99,8 +99,8 @@ Before running database commands, active the virtual environment:
  - Step 2 - Navigate to the project directory. For example, if it is saved to your desktop, paste the following into your terminal.
    - cd ~/Desktop/"Big Bang Brokers"
  - Step 3- Activate the virtual environment 
-   -  macOS/Linux: source .venv/bin/activate
-   -  Windows: .\.venv\Scripts\activate
+   -  macOS/Linux: "source .venv/bin/activate"
+   -  Windows: ".\.venv\Scripts\activate"
    -  You must see (.venv) before continuing
  - Step 4 - Install the requirements.txt --> pip3 install -r requirements.txt
  - Step 5 - Start the Flask application
