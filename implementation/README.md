@@ -29,7 +29,7 @@ A virtual environment will isolate all project-specific packages
   
 5.  Activate the virtual environment
    - macOs/Linux: "source .venv/bin/activate"
-   - Windows: ".\venv/Scripts\activate"
+   - Windows: ".\.venv/Scripts\activate"
 
      After activation, the terminal prompt will appear as (.venv)
      
@@ -50,8 +50,8 @@ A virtual environment will isolate all project-specific packages
  
  1. Ensure Virtual Environment is active
 Before running database commands, active the virtual environment:
-  - macOS/Linux: .venv/bin/activate
-  - Windows: .\.venv\Scripts\activate
+  - macOS/Linux: ".venv/bin/activate"
+  - Windows: ".\.venv\Scripts\activate"
  
  2. Create a Database
     - The database file(app.db) is generated automatically
@@ -102,9 +102,9 @@ Before running database commands, active the virtual environment:
    -  macOS/Linux: "source .venv/bin/activate"
    -  Windows: ".\.venv\Scripts\activate"
    -  You must see (.venv) before continuing
- - Step 4 - Install the requirements.txt --> pip3 install -r requirements.txt
+ - Step 4 - Install the requirements.txt --> "pip3 install -r requirements.txt"
  - Step 5 - Start the Flask application
-   - run the main application: python3 main.py
+   - run the main application: "python3 main.py"
    - If the server runs successfully, you should see a similar message like running on http:// 127.0.0.1:5000
  - Step 6 - Open the application in a browser
    - Once the terminal shows that flask is running, open the URL in any browser
