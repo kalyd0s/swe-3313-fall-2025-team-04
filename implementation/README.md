@@ -24,7 +24,7 @@ Important(Windows Only)
        - python3 --version
        - pip3 --version
          
-You do not need to download Flask because it is manually listed in our requirements.txt.
+   You do not need to download Flask because it is manually listed in our requirements.txt.
 
 3. Run the application
 - Once dependencies are installed, the application can be launched with a standard .py file. Please proceed to "How to Start and Login"
