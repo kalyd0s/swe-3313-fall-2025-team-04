@@ -116,7 +116,7 @@ Before running database commands, activate the virtual environment:
    
 --- 
 ## TroubleShooting
-    
+- There is nothing to troubleshoot.
  
  
 
