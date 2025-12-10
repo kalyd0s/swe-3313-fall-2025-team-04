@@ -142,6 +142,7 @@ Your terminal should display (venv) before continuing.
    pip3 install -r requirements.txt
 
 Common errors:
+
 ERROR: Could not open requirements file:
 
 - This means you are not in the project’s root directory.
