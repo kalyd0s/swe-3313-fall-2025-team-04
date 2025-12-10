@@ -92,7 +92,7 @@ Before running database commands, activate the virtual environment:
         - C:\Users\username\Desktop\Big Bang Brokers 
  - Step 3- Activate the virtual environment 
    -  macOS/Linux: source .venv/bin/activate
-   -  Windows: .venv\Scripts\activate
+   -  Windows: venv\Scripts\activate
    -  You must see (.venv) before continuing
  - Step 4 - Install the requirements.txt --> type pip3 install -r requirements.txt for macOs and
    pip install -r requirements.txt for Windows
