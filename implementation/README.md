@@ -143,6 +143,7 @@ Your terminal should display (venv) before continuing.
 
 Common errors:
 ERROR: Could not open requirements file:
+
 - This means you are not in the project’s root directory.
 
 ModuleNotFoundError: No module named 'flask':
