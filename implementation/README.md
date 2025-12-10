@@ -23,6 +23,7 @@ Important(Windows Only)
   - MacOs:
        - python3 --version
        - pip3 --version
+         
 You do not need to download Flask because it is manually listed in our requirements.txt.
 
 3. Run the application
