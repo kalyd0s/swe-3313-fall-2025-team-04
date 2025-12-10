@@ -54,11 +54,11 @@ Before running database commands, activate the virtual environment:
  - User Accounts:
   - Regular User:
     - username: "user1"
-    - password: hashed passwprd stored in database
+    - password: ""
     - is_admin: False
   - Administrator:
     - username: "admin"
-    - password: hashed password stored in database
+    - password: "admin"
     - is_admin: True
    
 - Inventory:
@@ -88,7 +88,6 @@ Before running database commands, activate the virtual environment:
    -  macOS/Linux: "source .venv/bin/activate"
    -  Windows: ".\.venv\Scripts\activate" or ".\.venv\Scripts\activate.bat" if execution of scripts is disabled
    -  You must see (.venv) before continuing
- -  Step 4 - Optional - Creating a virtual environment if one is not i
  - Step 4 - Install the requirements.txt --> "pip3 install -r requirements.txt" 
  - Step 5 - Start the Flask application
    - run the main application: "python --version main.py"
