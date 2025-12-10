@@ -88,7 +88,7 @@ Before running database commands, activate the virtual environment:
    - For Windows, go to the project folder and open the command prompt from there
  - Step 3- Activate the virtual environment 
    -  macOS/Linux: "source .venv/bin/activate"
-   -  Windows: ".\.venv\Scripts\activate" or ".\.venv\Scripts\activate.bat" if execution of scripts is disabled
+   -  Windows: ".venv\Scripts\activate"
    -  You must see (.venv) before continuing
  - Step 4 - Install the requirements.txt --> "pip3 install -r requirements.txt" 
  - Step 5 - Start the Flask application
