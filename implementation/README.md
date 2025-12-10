@@ -17,11 +17,10 @@ Important(Windows Only)
 2. Verify Python Installation
 - Open the terminal and type:
 
-
   - Windows:
-         - "python --version"
-         - "pip --version"
-    - MacOs:
+       - "python --version"
+       - "pip --version"
+  - MacOs:
        - python3 --version
        - pip3 --version
 
