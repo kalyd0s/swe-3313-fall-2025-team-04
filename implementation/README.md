@@ -36,12 +36,13 @@ Important(Windows Only)
  
  1. Ensure Virtual Environment is active
 Before running database commands, activate the virtual environment:
-  - macOS/Linux: ".venv/bin/activate"
+  - macOS/Linux: " .venv/bin/activate"
   - Windows: ".venv\Scripts\activate"
  
  2. Create a Database
     - The database file(app.db) is generated automatically
     - Run the database setup script: python init_db.py
+      
   This performs the following:
     - Creates all required tables(Users, Inventory, and etc)
     - Loads seed data into each table
