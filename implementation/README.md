@@ -24,11 +24,18 @@ Important(Windows Only)
        - python3 --version
        - pip3 --version
          
-   You do not need to download Flask because it is manually listed in our requirements.txt.
+   
+3. Create a virtual Environment in Terminal(Optional)
+   - Windows: python -m venv .venv
+   - macOS/Linux: python3 -m venv .venv
+   - Your prompt should show (.venv) when continuing
+   
+4.  However if Flask is not listed on requirements.txt then type pip3 install flask  for macOs or pip install flask for Windows in the terminal to install it manually
+   
+   - You do not need to download Flask because it is manually listed in our requirements.txt.
   
-3. However if Flask is not listed on requirements.txt then type pip3 install flask  for macOs or pip install flask for Windows in the terminal to install it manually
 
-4. Run the application
+7. Run the application
 - Once dependencies are installed, the application can be launched with a main .py file. Please proceed to "How to Start and Login"
   
  ---
