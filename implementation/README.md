@@ -39,7 +39,7 @@ Important(Windows Only)
  1. Ensure Virtual Environment is active
     
 Before running database commands, activate the virtual environment:
-  - macOS/Linux: .venv/bin/activate
+  - macOS/Linux: source .venv/bin/activate
   - Windows: venv\Scripts\activate
  
  2. Create a Database
