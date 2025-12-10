@@ -25,8 +25,10 @@ Important(Windows Only)
        - pip3 --version
          
    You do not need to download Flask because it is manually listed in our requirements.txt.
+  
+3. However to install Flask without  being on requirements.txt then type "pip --version install flask"  for macOs or "pip install flask" for Windows in the terminal 
 
-3. Run the application
+4. Run the application
 - Once dependencies are installed, the application can be launched with a standard .py file. Please proceed to "How to Start and Login"
   
  ---
