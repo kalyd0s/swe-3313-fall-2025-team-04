@@ -1,0 +1,140 @@
+{% extends "base.html" %}
+{% block body %}
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&display=swap');
+    body { background: #0c0d1c; color: #f5f5ff; }
+    .cart-wrap {
+        max-width: 1100px;
+        margin: 0 auto;
+        padding: 32px 16px 48px;
+        font-family: "Playfair Display", serif;
+    }
+    .cart-title {
+        text-align: center;
+        font-size: 44px;
+        font-weight: 600;
+        margin-bottom: 8px;
+    }
+    .cart-line {
+        width: 320px;
+        height: 2px;
+        background: #dcdcdc;
+        margin: 0 auto 24px;
+    }
+    .cart-panel {
+        background: #0e1329;
+        border-radius: 8px;
+        box-shadow: 0 18px 36px rgba(0,0,0,0.45);
+        overflow: hidden;
+        border: 1px solid rgba(255,255,255,0.08);
+    }
+    .cart-row {
+        display: grid;
+        grid-template-columns: 1fr 2fr 0.8fr;
+        border-bottom: 3px solid rgba(255,255,255,0.4);
+        min-height: 140px;
+        align-items: center;
+    }
+.cart-row:last-child {
+    border-bottom: none;
+}
+.cart-cell {
+    padding: 18px 20px;
+    font-size: 17px;
+    line-height: 1.5;
+}
+.cart-img {
+    width: 140px;
+    height: 140px;
+    object-fit: contain;
+    display: block;
+    margin: 0 auto;
+}
+.cart-cell strong {
+    font-weight: 700;
+}
+    .remove-btn {
+        background: #7b5cff;
+        color: white;
+        border: none;
+        border-radius: 10px;
+        padding: 12px 16px;
+        font-weight: 700;
+        cursor: pointer;
+        width: 150px;
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .remove-btn:hover { background: #9074ff; }
+    .summary-row {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        border-top: 3px solid rgba(255,255,255,0.4);
+    }
+    .summary-cell {
+        padding: 12px 16px;
+        font-size: 18px;
+    }
+    .summary-cell span { font-weight: 700; }
+    .checkout-row {
+        display: flex;
+        justify-content: flex-end;
+        padding: 16px;
+        background: rgba(255,255,255,0.04);
+    }
+    .checkout-btn {
+        background: #6f747a;
+        color: #f5f5ff;
+        border: none;
+        padding: 12px 18px;
+        font-size: 18px;
+        border-radius: 4px;
+    }
+    .checkout-btn:hover { background: #7e848b; }
+    .empty-state {
+        text-align: center;
+        padding: 40px 0;
+        color: #d0d4e0;
+    }
+</style>
+<div class="cart-wrap">
+    <h1 class="cart-title">Shopping Cart</h1>
+    <div class="cart-line"></div>
+    {% if cart_items %}
+        <div class="cart-panel">
+        {% for cart_item in cart_items %}
+        {% if cart_item.item %}
+        {% set cart_img = cart_item.item.image_url if cart_item.item.image_url else planet_images.get(cart_item.item.name|lower, planet_images['default']) %}
+        <div class="cart-row">
+            <div class="cart-cell img-cell">
+                <img src="{{ cart_img }}" alt="{{ cart_item.item.name }}" class="cart-img">
+            </div>
+            <div class="cart-cell">
+                <div><strong>Name:</strong> {{ cart_item.item.name }}</div>
+                <div><strong>Price:</strong> ${{ (cart_item.item.price // 1000000000)|int }}B</div>
+                <div><strong>Description:</strong> {{ cart_item.item.description }}</div>
+            </div>
+            <div class="cart-cell">
+                <form method="POST" class="mb-0">
+                    {{ remove_form.hidden_tag() }}
+                    <input id="remove_item_id" name="remove_item_id" type="hidden" value="{{ cart_item.item.id }}">
+                    <button type="submit" class="remove-btn">Remove Item</button>
+                </form>
+            </div>
+        </div>
+        {% endif %}
+        {% endfor %}
+        <div class="summary-row">
+            <div class="summary-cell"><span>Total Items:</span> {{ cart_items|length }}</div>
+            <div class="summary-cell"><span>Subtotal:</span> ${{ (total_price // 1000000000)|int }}B</div>
+        </div>
+        <div class="checkout-row">
+            <a class="checkout-btn" href="{{ url_for('CheckoutPage') }}">Continue to Checkout</a>
+        </div>
+    </div>
+    {% else %}
+    <div class="empty-state">Your cart is empty. Add planets from the shop to get started.</div>
+    {% endif %}
+</div>
+{% endblock %}

@@ -1,0 +1,95 @@
+{% extends "base.html" %}
+{% block body %}
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&display=swap');
+body { background: #454982; color: #f5f5ff; }
+.wrap {
+    max-width: 880px;
+    margin: 0 auto;
+    padding: 46px 18px 60px;
+    font-family: "Playfair Display", serif;
+    text-align: center;
+}
+.title { font-size: 44px; margin-bottom: 6px; }
+.subtitle {
+    font-size: 22px;
+    margin: 0 auto 26px;
+    max-width: 520px;
+    padding-top: 6px;
+    border-top: 1px solid rgba(255,255,255,0.4);
+    padding-bottom: 0;
+}
+.panel {
+    background: #c6c7d5;
+    border-radius: 4px;
+    padding: 38px 40px 48px;
+    box-shadow: 0 12px 28px rgba(0,0,0,0.35);
+    max-width: 680px;
+    margin: 0 auto;
+}
+.form-group { margin-bottom: 24px; text-align: left; }
+.field-label {
+    display: block;
+    font-size: 20px;
+    color: #2e3c4f;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.field-input {
+    width: 100%;
+    padding: 16px 18px;
+    border: none;
+    border-radius: 8px;
+    font-size: 20px;
+    color: #2e3c4f;
+    text-align: center;
+}
+.submit-btn {
+    background: #88919a;
+    color: #2e3c4f;
+    border: none;
+    padding: 14px 20px;
+    width: 60%;
+    max-width: 260px;
+    border-radius: 6px;
+    font-size: 18px;
+    font-weight: 700;
+}
+.success-banner {
+    margin-top: 18px;
+    background: #59c58a;
+    color: #1f2d1f;
+    padding: 12px 16px;
+    border-radius: 6px;
+    font-weight: 700;
+}
+.error-banner {
+    margin-top: 18px;
+    background: #e27c7c;
+    color: #2e1f1f;
+    padding: 12px 16px;
+    border-radius: 6px;
+    font-weight: 700;
+}
+</style>
+<div class="wrap">
+    <div class="title">Promote User To Admin</div>
+    <div class="subtitle">Please type in user to promote to Admin</div>
+    <div class="panel">
+        <form method="POST">
+            {{ form.hidden_tag() }}
+            <div class="form-group">
+                <label class="field-label" for="{{ form.username.id }}">Enter Username:</label>
+                {{ form.username(class="field-input", placeholder="") }}
+            </div>
+            {{ form.submit(class="submit-btn") }}
+        </form>
+        {% if promoted_user %}
+        <div class="success-banner">{{ promoted_user }} is now admin!</div>
+        {% endif %}
+        {% if error_user %}
+        <div class="error-banner">{{ error_user }}</div>
+        {% endif %}
+    </div>
+</div>
+{% endblock %}
