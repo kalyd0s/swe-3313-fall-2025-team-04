@@ -123,7 +123,7 @@ Before running database commands, activate the virtual environment:
    
 --- 
 ## TroubleShooting
-1. Virtual Environment Issues
+### 1. Virtual Environment Issues
 
  - If Flask or other modules are missing, the virtual environment may not be activated.
 
@@ -134,25 +134,26 @@ Windows:
 macOS / Linux:
 - python3 -m venv venv
 - source venv/bin/activate
-- Your terminal should display (venv) before continuing.
 
-2. Dependencies Not Loading
+Your terminal should display (venv) before continuing.
+
+### 2. Dependencies Not Loading
 - Install required libraries using the requirements file:
-pip install -r requirements.txt
+   pip3 install -r requirements.txt
 
 Common errors:
-- ERROR: Could not open requirements file
-This means you are not in the project’s root directory.
+ERROR: Could not open requirements file:
+- This means you are not in the project’s root directory.
 
-- ModuleNotFoundError: No module named 'flask'
-Activate the virtual environment and reinstall dependencies:
-pip install -r requirements.txt
+ModuleNotFoundError: No module named 'flask':
+- Activate the virtual environment and reinstall dependencies:
+pip3 install -r requirements.txt
 
-3. Port Already in Use
-- If Flask returns:
-OSError: [Error 98] Address already in use
-Change the port inside your main file:
-app.run(debug=True, port=5001)
+### 3. Port Already in Use
+If Flask returns:
+   OSError: [Error 98] Address already in use:
+   - Change the port inside your main file:
+     app.run(debug=True, port=5001)
 
 
 
