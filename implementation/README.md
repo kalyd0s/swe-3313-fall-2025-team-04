@@ -37,6 +37,7 @@ Important(Windows Only)
  The application uses a SQLite database for data storage, inlcuding user accounts, administrator accounts, and inventory information
  
  1. Ensure Virtual Environment is active
+    
 Before running database commands, activate the virtual environment:
   - macOS/Linux: " .venv/bin/activate"
   - Windows: ".venv\Scripts\activate"
@@ -93,7 +94,7 @@ Before running database commands, activate the virtual environment:
    -  macOS/Linux: source .venv/bin/activate
    -  Windows: .venv\Scripts\activate
    -  You must see (.venv) before continuing
- - Step 4 - Install the requirements.txt -->  type pip3 install -r requirements.txt for macOs and
+ - Step 4 - Install the requirements.txt --> type pip3 install -r requirements.txt for macOs and
    pip install -r requirements.txt for Windows
  - Step 5 - Start the Flask application
    - run the main application: type python3 main.py for macOS and Windows: python main.py
