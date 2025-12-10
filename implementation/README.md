@@ -130,6 +130,7 @@ Before running database commands, activate the virtual environment:
 Windows:
 - python -m venv venv
 - venv\Scripts\activate
+  
 macOS / Linux:
 - python3 -m venv venv
 - source venv/bin/activate
