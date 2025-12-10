@@ -73,6 +73,7 @@ Our technical design contains implementation information, data storage plan, ERD
 ## Final Presentation
 
 The link to our Final Presentation Part 1 is [here](https://www.loom.com/share/20ef0b8f8caf4043959a9a42911221c2).
+<br>
 The link to our Final Presentation Part 2 is [here](https://www.loom.com/share/61acf18e6f6943ff96ff257606bb02d9).
 
 
