@@ -11,11 +11,18 @@ Download the installer:
   - Linux(use package manager)
   
 Important(Windows Only)
-- Click "Python to Path" to avoid manual environment variable setup
+- Click "Python to Path" during installation
   
     
 2. Verify Python Installation
-- Open the terminal and type: "python3 --version" and "pip3 --version"
+- Open the terminal and type:
+ 
+  - Windows:
+         - "python --version"
+         - "pip --version"
+    - MacOs:
+       - python3 --version
+       - pip3 --version
 
 
 3. Run the application
@@ -39,7 +46,7 @@ Before running database commands, activate the virtual environment:
     - Loads seed data into each table
     - Inserts:
       -  1 user
-      - 1 administrator (is_admin = True)
+      -  1 administrator (is_admin = True)
       - Inserts inventory records used by the application
         
   3. Seed data details
@@ -73,16 +80,18 @@ Before running database commands, activate the virtual environment:
     the connection settings in the configuration file(config.py) or in the flask app factory
 ---
 ## How to Start and Login
- - Step 1- Open the terminal --> Command + space ( macOS/Linux) or Command Prompt/Powershell (Windows))
- - Step 2 - Navigate to the project directory. For example, if it is saved to your desktop, paste the following into your terminal.
+ - Step 1- Open the terminal --> Command + space ( macOS/Linux) 
+ - Step 2 - Navigate to the project directory. For example, if it is saved to your desktop, paste the following into your terminal. 
    - cd ~/Desktop/"Big Bang Brokers"
+   - For Windows, go to the project folder and open the command prompt from there
  - Step 3- Activate the virtual environment 
    -  macOS/Linux: "source .venv/bin/activate"
-   -  Windows: ".\.venv\Scripts\activate"
+   -  Windows: ".\.venv\Scripts\activate" or ".\.venv\Scripts\activate.bat" if execution of scripts is disabled
    -  You must see (.venv) before continuing
+ -  Step 4 - Optional - Creating a virtual environment if one is not i
  - Step 4 - Install the requirements.txt --> "pip3 install -r requirements.txt" 
  - Step 5 - Start the Flask application
-   - run the main application: "python3 main.py"
+   - run the main application: "python --version main.py"
    - If the server runs successfully, you should see a similar message like running on http:// 127.0.0.1:5000
  - Step 6 - Open the application in a browser
    - Once the terminal shows that flask is running, open the URL in any browser
