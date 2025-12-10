@@ -11,7 +11,7 @@ Download the installer:
   - Linux(use package manager)
   
 Important(Windows Only)
-- Click "Python to Path" during installation
+- Click "Python to Path" during installation.
   
     
 2. Verify Python Installation
