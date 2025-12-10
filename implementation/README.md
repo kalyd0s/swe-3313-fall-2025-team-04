@@ -90,13 +90,13 @@ Before running database commands, activate the virtual environment:
    - For Windows, go to the project folder and open the command prompt from there
         - cd %USERPROFILE%\Desktop\Big Bang Brokers 
  - Step 3- Activate the virtual environment 
-   -  macOS/Linux: "source .venv/bin/activate"
-   -  Windows: ".venv\Scripts\activate"
+   -  macOS/Linux: source .venv/bin/activate
+   -  Windows: .venv\Scripts\activate
    -  You must see (.venv) before continuing
- - Step 4 - Install the requirements.txt --> "pip3 install -r requirements.txt" for MacOs and
-   "pip install -r requirements.txt" for Windows
+ - Step 4 - Install the requirements.txt -->  type pip3 install -r requirements.txt for macOs and
+   pip install -r requirements.txt for Windows
  - Step 5 - Start the Flask application
-   - run the main application: "python3 main.py" for macOS and Windows: "python main.py"
+   - run the main application: type python3 main.py for macOS and Windows: python main.py
    - If the server runs successfully, you should see a similar message like running on http:// 127.0.0.1:5000
  - Step 6 - Open the application in a browser
    - Once the terminal shows that flask is running, open the URL in any browser
