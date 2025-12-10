@@ -88,6 +88,7 @@ Before running database commands, activate the virtual environment:
  - Step 2 - Navigate to the project directory. For example, if it is saved to your desktop, paste the following into your terminal. 
    - cd ~/Desktop/"Big Bang Brokers"
    - For Windows, go to the project folder and open the command prompt from there
+        - cd %USERPROFILE%\Desktop\Big Bang Brokers 
  - Step 3- Activate the virtual environment 
    -  macOS/Linux: "source .venv/bin/activate"
    -  Windows: ".venv\Scripts\activate"
