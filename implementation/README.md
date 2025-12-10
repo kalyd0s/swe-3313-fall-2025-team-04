@@ -92,7 +92,7 @@ Before running database commands, activate the virtual environment:
     the connection settings in the configuration file(config.py) or in the flask app factory
 ---
 ## How to Start and Login
- - Step 1- Open the terminal --> Command + space ( macOS/Linux) or Windows: Open the project folder → click the address bar → type cmd → press Enter
+ - Step 1- Open the terminal --> Command + space and type Terminal ( macOS/Linux) or Windows: Open the project folder → click the address bar → type cmd → press Enter
  - Step 2 - Navigate to the project directory. For example, if it is saved to your desktop, paste the following into your terminal. 
    - cd ~/Desktop/"Big Bang Brokers"
    - For Windows, go to the project folder and open the command prompt from there
