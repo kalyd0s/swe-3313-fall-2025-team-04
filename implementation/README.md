@@ -1,6 +1,6 @@
 ## Environment Setup
 What you need:
-1. Install Python(Version 3.13)
+1. Install Python(Version 3.13) or the latest stable 3.x version.
    
 The project should use a current version of Python
   - Python - [Official Link](https://www.python.org/downloads/)
@@ -11,7 +11,7 @@ Download the installer:
   - Linux(use package manager)
   
 Important(Windows Only)
-- Click "Python to Path" during installation.
+- Click "Add Python to Path" during installation.
   
     
 2. Verify Python Installation
@@ -29,7 +29,7 @@ Important(Windows Only)
 3. However if Flask is not listed on requirements.txt then type "pip3 install flask"  for macOs or "pip install flask" for Windows in the terminal to install it manually
 
 4. Run the application
-- Once dependencies are installed, the application can be launched with a standard .py file. Please proceed to "How to Start and Login"
+- Once dependencies are installed, the application can be launched with a main .py file. Please proceed to "How to Start and Login"
   
  ---
  ## Database Setup
