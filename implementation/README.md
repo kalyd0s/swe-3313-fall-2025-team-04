@@ -23,7 +23,7 @@ Important(Windows Only)
   - MacOs:
        - python3 --version
        - pip3 --version
-
+You do not need to download Flask because it is manually listed in our requirements.txt.
 
 3. Run the application
 - Once dependencies are installed, the application can be launched with a standard .py file. Please proceed to "How to Start and Login"
@@ -31,12 +31,12 @@ Important(Windows Only)
  ---
  ## Database Setup
 
- The application uses SQLite database for data storage, inlcuding user accounts, administrator accounts, and inventory information
+ The application uses a SQLite database for data storage, inlcuding user accounts, administrator accounts, and inventory information
  
  1. Ensure Virtual Environment is active
 Before running database commands, activate the virtual environment:
   - macOS/Linux: ".venv/bin/activate"
-  - Windows: ".\.venv\Scripts\activate"
+  - Windows: ".venv\Scripts\activate"
  
  2. Create a Database
     - The database file(app.db) is generated automatically
