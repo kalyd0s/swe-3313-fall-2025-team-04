@@ -5,13 +5,13 @@ What you need:
 The project should use a current version of Python
   - Python - [Official Link](https://www.python.org/downloads/)
 
-Download the installer for
+Download the installer:
   - Windows(.exe)
   -  macOS(.pkg)
   - Linux(use package manager)
   
 Important(Windows Only)
-- Add Python to Path to avoid manual environment variable setup
+- Click "Python to Path" to avoid manual environment variable setup
   
     
 2. Verify Python Installation
