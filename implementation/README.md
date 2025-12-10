@@ -98,7 +98,7 @@ Before running database commands, activate the virtual environment:
    pip install -r requirements.txt for Windows
  - Step 5 - Start the Flask application
    - run the main application: type python3 main.py for macOS and Windows: python main.py
-   - If the server runs successfully, you should see a similar message like running on http:// 127.0.0.1:5000
+   - If the server runs successfully, you should see a message like running on http:// 127.0.0.1:5000
  - Step 6 - Open the application in a browser
    - Once the terminal shows that flask is running, open the URL in any browser
    - Go to http:// localhost:5000 or http:// 127.0.0.1:5000. If it uses a custom port, replace 5000 with that number
