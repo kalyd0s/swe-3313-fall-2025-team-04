@@ -125,14 +125,14 @@ Before running database commands, activate the virtual environment:
 ## TroubleShooting
 1. Virtual Environment Issues
 
-- If Flask or other modules are missing, the virtual environment may not be activated.
+ - If Flask or other modules are missing, the virtual environment may not be activated.
 
 Windows:
-python -m venv venv
-venv\Scripts\activate
+- python -m venv venv
+- venv\Scripts\activate
 macOS / Linux:
-python3 -m venv venv
-source venv/bin/activate
+- python3 -m venv venv
+- source venv/bin/activate
 - Your terminal should display (venv) before continuing.
 
 2. Dependencies Not Loading
@@ -149,7 +149,7 @@ pip install -r requirements.txt
 
 3. Port Already in Use
 - If Flask returns:
-OSError: [Errno 98] Address already in use
+OSError: [Error 98] Address already in use
 Change the port inside your main file:
 app.run(debug=True, port=5001)
 
