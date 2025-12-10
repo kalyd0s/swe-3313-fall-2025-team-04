@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>E-Commerce{% if title %} | {{ title }}{% endif %}</title>
+
+    <!-- Bootstrap 4.5.3 CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+</head>
+
+<body style="background-color: var(--page-bg, #454982); color: var(--page-text, #fff);">
+    <style>
+        .top-nav-wrap {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            background: #f5f5ff;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.12);
+            position: sticky;
+            top: 0;
+            z-index: 999;
+        }
+        .top-nav {
+            width: 100%;
+            max-width: 1200px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 10px 12px;
+        }
+        .nav-tabs {
+            display: flex;
+            align-items: center;
+            gap: 0;
+            width: 100%;
+            font-family: "Playfair Display", serif;
+        }
+        .nav-tab {
+            padding: 10px 26px;
+            text-decoration: none;
+            font-size: 1rem;
+            color: #333;
+            background: #f5f5ff;
+            border-right: 1px solid #d7d7ea;
+            font-weight: 700;
+        }
+        .nav-tab:first-child { border-left: 1px solid #d7d7ea; }
+        .nav-tab:last-child { border-right: 1px solid #d7d7ea; }
+        .nav-tab-active {
+            background: #e3e4f4;
+        }
+        .nav-tab-disabled {
+            color: #8e90a6;
+            background: #f0f0fb;
+            pointer-events: none;
+            cursor: not-allowed;
+        }
+        .nav-tab-disabled .cart-count-badge {
+            background: #d7d7ea;
+            color: #666;
+        }
+        .nav-search {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 0 20px;
+            background: #f5f5ff;
+            border-right: 1px solid #d7d7ea;
+        }
+        .nav-search-label {
+            margin-right: 8px;
+            font-size: 0.95rem;
+            color: #333;
+        }
+        .nav-search-input {
+            width: 60%;
+            max-width: 260px;
+            padding: 6px 14px;
+            border-radius: 999px;
+            border: none;
+            background: #d0d0dc;
+            outline: none;
+        }
+        .nav-search-disabled .nav-search-input {
+            background: #e8e8ee;
+            color: #9b9bac;
+            cursor: not-allowed;
+        }
+        .search-form {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            width: 100%;
+            justify-content: center;
+        }
+        .cart-count-badge {
+            margin-left: 4px;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            min-width: 18px;
+            padding: 0 5px;
+            border-radius: 999px;
+            font-size: 0.75rem;
+            background: #ffd54a;
+            color: #fff;
+        }
+        .budget-pill {
+            padding: 8px 12px;
+            background: #eceefe;
+            border-radius: 10px;
+            font-weight: 700;
+            color: #333;
+            margin-left: auto;
+        }
+    </style>
+    <div class="top-nav-wrap">
+        <header class="top-nav top-nav-cart">
+            <nav class="nav-tabs">
+                {% if current_user.is_authenticated and (current_user.is_admin or current_user.username == 'admin') %}
+                <a href="{{ url_for('AdminPage') }}" class="nav-tab {% if request.endpoint in ['AdminActionsPage','AdminPage','AdminPanelPage'] %}nav-tab-active{% endif %}">Admin</a>
+                {% endif %}
+                <a href="{{ url_for('MarketPage') }}" class="nav-tab {% if request.endpoint == 'MarketPage' %}nav-tab-active{% endif %}">Shop</a>
+                {% if current_user.is_authenticated %}
+                {% set cart_count = current_user.cart_items|length if current_user.cart_items else 0 %}
+                {% set cart_empty = cart_count == 0 %}
+                {% if cart_empty %}
+                    <span class="nav-tab nav-tab-disabled" aria-disabled="true" title="Add items to access your cart">
+                        Cart
+                        <span class="cart-icon">🛒</span>
+                        <span class="cart-count-badge">0</span>
+                    </span>
+                {% else %}
+                    <a href="{{ url_for('CartPage') }}" class="nav-tab">
+                        Cart
+                        <span class="cart-icon">🛒</span>
+                        <span class="cart-count-badge">{{ cart_count }}</span>
+                    </a>
+                {% endif %}
+                {% endif %}
+                {% if request.endpoint == 'MarketPage' %}
+                <div class="nav-search">
+                    <form class="search-form" action="{{ url_for('MarketPage') }}" method="get">
+                        <label for="searchInput" class="nav-search-label">Search:</label>
+                        <input id="searchInput" name="q" value="{{ search_query|default('') }}" class="nav-search-input" type="text" placeholder="Find a planet">
+                    </form>
+                </div>
+                {% else %}
+                <div class="nav-search nav-search-disabled">
+                    <label for="searchInputDisabled" class="nav-search-label">Search:</label>
+                    <input id="searchInputDisabled" class="nav-search-input" type="text" value="Search available in shop" disabled>
+                </div>
+                {% endif %}
+                {% if current_user.is_authenticated %}
+                <a href="{{ url_for('CheckoutPage') }}" class="nav-tab">Checkout</a>
+                <a href="{{ url_for('LogoutPage') }}" class="nav-tab">Log Out</a>
+                {% else %}
+                <a href="{{ url_for('LoginPage') }}" class="nav-tab">Login</a>
+                <a href="{{ url_for('RegisterPage') }}" class="nav-tab">Register</a>
+                {% endif %}
+            </nav>
+        </header>
+    </div>
+    <br>
+    {% with messages = get_flashed_messages(with_categories=true) %}
+        {% if messages %}
+            {% for category, message in messages %}
+                <div class="alert alert-{{ category }}">
+                    <button type="button" class="m1-2 mb-1 close" data-dismiss="alert" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    {{ message }}
+                </div>
+            {% endfor %}
+        {% endif %}
+    {% endwith %}
+    
+    {% block body %}{% endblock %}
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,113 @@
+{% extends "base.html" %}
+{% block body %}
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Cardo:ital,wght@0,400;0,700;1,400&display=swap');
+    body { background: #0c0d12; color: #f5f5f5; }
+    .bg-gradient {
+        position: fixed;
+        inset: 0;
+        background:
+            radial-gradient(circle at 20% 0%, rgba(123, 92, 255, 0.35), transparent 55%),
+            radial-gradient(circle at 80% 100%, rgba(0, 220, 255, 0.35), transparent 55%);
+        opacity: 0.35;
+        z-index: -1;
+    }
+    .page {
+        min-height: calc(100vh - 60px);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 30px 18px 48px;
+    }
+    .shop-header {
+        font-family: "Playfair Display", serif;
+        font-size: 44px;
+        text-align: center;
+        letter-spacing: 1px;
+        margin-bottom: 8px;
+    }
+    .shop-line {
+        width: 200px;
+        height: 2px;
+        background: #dcdcdc;
+        margin: 0 auto 24px;
+    }
+    .inventory {
+        width: 100%;
+        max-width: 1200px;
+        background: #060606;
+        padding: 26px 22px 32px;
+        border-radius: 8px;
+        box-shadow: 0 18px 36px rgba(0,0,0,0.45);
+    }
+    .inventory-list {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+        gap: 18px 24px;
+        color: #f5f5f5;
+        text-align: center;
+    }
+    .planet-img {
+        width: 220px;
+        height: 220px;
+        object-fit: contain;
+        display: block;
+        margin: 0 auto 8px;
+    }
+    #inventory-name {
+        font-family: "Playfair Display", serif;
+        font-size: 22px;
+        font-weight: 700;
+        margin: 4px 0;
+    }
+    #inventory-info {
+        font-family: "Cardo", serif;
+        font-size: 16px;
+        line-height: 1.5;
+        margin: 6px 0 8px;
+    }
+    #inventory-price, #inventory-stock {
+        font-family: "Playfair Display", serif;
+        font-size: 18px;
+        font-weight: 700;
+        margin: 0;
+    }
+    #inventory-stock { font-style: italic; }
+    #cart-add {
+        margin-top: 10px;
+        background: #fefefe;
+        color: #000;
+        font-weight: 700;
+        border: none;
+        padding: 10px 16px;
+        border-radius: 6px;
+        box-shadow: 0 6px 14px rgba(0,0,0,0.35);
+        cursor: pointer;
+    }
+    #cart-add:hover { background: #f1f1f1; }
+</style>
+<div class="bg-gradient"></div>
+<div class="page">
+    <h1 class="shop-header">Inventory</h1>
+    <div class="shop-line"></div>
+    <div class="inventory">
+        <div class="inventory-list">
+            {% for item in items %}
+            <div class="inventory-item">
+                {% set img_src = item.image_url if item.image_url else planet_images.get(item.name|lower, planet_images['default']) %}
+                <img class="planet-img" src="{{ img_src }}" alt="{{ item.name }}">
+                <p id="inventory-name">{{ item.name }}</p>
+                <p id="inventory-info">{{ item.description }}</p>
+                <p id="inventory-price">${{ (item.price // 1000000000)|int }}B</p>
+                <p id="inventory-stock">Qty: 1</p>
+                <form method="POST">
+                    {{ add_to_cart_form.hidden_tag() }}
+                    <input type="hidden" name="add_to_cart_item" value="{{ item.name }}">
+                    <button id="cart-add" type="submit">Add to Cart</button>
+                </form>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>
+{% endblock %}
