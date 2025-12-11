@@ -112,7 +112,7 @@ Before running database commands, activate the virtual environment:
  - Step 7- Login Credentials
    | Username | Password | Role           |
    |----------| ---------|----------------|
-   | user1    | user123  | Regular User   |
+   | Create Username    | Create Password   | Regular User   |
    | admin    | admin    | Administrator  |
 
  - Step 8 -Shut down the application
